@@ -154,46 +154,44 @@ def vignette():
 SCENES_VIDEO = ROOT.parent / "scenes_video"
 
 
-def load_video_frames(mp4_path: Path):
-    """Decode an AI-animated clip into a list of RGB PIL Images."""
+def load_video_frames(mp4_path: Path, n_out: int):
+    """Decode and upscale an AI-animated clip to WxH in native ffmpeg C/SIMD."""
     probe = subprocess.run(
-        ["ffprobe", "-v", "error", "-select_streams", "v:0",
-         "-show_entries", "stream=width,height", "-of", "csv=p=0:s=x", str(mp4_path)],
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(mp4_path)],
         capture_output=True, text=True, check=True,
     )
-    vw, vh = map(int, probe.stdout.strip().split("x"))
+    dur = max(0.5, float(probe.stdout.strip()))
+    target_fps = max(12.0, (n_out + 2) / dur)
+    vf = (
+        f"fps={target_fps:.3f},"
+        f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=bicubic,"
+        f"crop={W}:{H},unsharp=3:3:0.55:3:3:0.0"
+    )
     raw = subprocess.run(
-        ["ffmpeg", "-v", "error", "-i", str(mp4_path), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+        ["ffmpeg", "-v", "error", "-i", str(mp4_path), "-vf", vf,
+         "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
         capture_output=True, check=True,
     ).stdout
-    frame_bytes = vw * vh * 3
-    n_frames = len(raw) // frame_bytes
+    frame_bytes = W * H * 3
+    n_frames = max(1, len(raw) // frame_bytes)
     return [
-        Image.frombytes("RGB", (vw, vh), raw[i * frame_bytes:(i + 1) * frame_bytes])
+        np.frombuffer(raw, dtype=np.uint8, count=frame_bytes, offset=i * frame_bytes).reshape((H, W, 3))
         for i in range(n_frames)
     ]
 
 
 def worker(f0, f1, seg_path, segs, chunks):
-    imgs = {}
-    vids = {}
-    for s in segs:
-        name = s["name"]
-        vp = SCENES_VIDEO / f"{name}.mp4"
-        if vp.exists() and vp.stat().st_size > 50_000:
-            if name not in vids:
-                vids[name] = load_video_frames(vp)
-        elif name not in imgs:
-            imgs[name] = Image.open(next(SCENES.glob(name + "_*.jpg"))).convert("RGB")
-    vig = vignette()
-    sharpen = ImageFilter.UnsharpMask(radius=1.4, percent=110, threshold=2)
+    vig = vignette()[..., None]
     cache = {}
     ff = subprocess.Popen(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
                            "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                           "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "11M",
+                           "-c:v", "libx264", "-preset", "faster", "-crf", "18", "-maxrate", "11M",
                            "-bufsize", "22M", "-pix_fmt", "yuv420p", "-g", "60", str(seg_path)],
                           stdin=subprocess.PIPE)
     si = ci = 0
+    cur_name = None
+    cur_frames = None
     for fi in range(f0, f1):
         t = fi / FPS
         while si + 1 < len(segs) and t >= segs[si + 1]["t0"]:
@@ -202,45 +200,16 @@ def worker(f0, f1, seg_path, segs, chunks):
         name = sg["name"]
         mv = MOVES[name]
         tau = t - sg["t0"]
-        u = min(1.0, max(0.0, tau / (sg["t1"] - sg["t0"])))
-        e = ease(u, mv.get("ease", "soft"))
+        seg_dur = max(0.1, sg["t1"] - sg["t0"])
+        u = min(1.0, max(0.0, tau / seg_dur))
 
-        if name in vids:
-            vframes = vids[name]
-            pos = u * (len(vframes) - 1)
-            i0 = int(pos)
-            i1 = min(i0 + 1, len(vframes) - 1)
-            frac = pos - i0
-            src = Image.blend(vframes[i0], vframes[i1], frac) if frac > 0.01 and i1 != i0 else vframes[i0]
-            sw, sh = src.size
-            z = 1.01 + 0.04 * e
-            s = 1 / (max(W / sw, H / sh) * z)
-            cx, cy = sw / 2, sh / 2
-            if mv.get("shake") and tau < 0.45:
-                amp = 14 * math.exp(-tau / 0.13)
-                cx += amp * math.sin(tau * 83) * s
-                cy += amp * math.cos(tau * 61) * s
-            im = src.transform((W, H), Image.AFFINE, (s, 0, cx - s * W / 2, 0, s, cy - s * H / 2),
-                               resample=Image.BICUBIC).filter(sharpen)
-        else:
-            def lerp(key, default):
-                p = mv.get(key)
-                return p[0] + (p[1] - p[0]) * e if p else default
+        if name != cur_name:
+            cur_name = name
+            vp = SCENES_VIDEO / f"{name}.mp4"
+            cur_frames = load_video_frames(vp, max(8, int(round(seg_dur * FPS))))
 
-            z, px, py, r = lerp("z", 1.0), lerp("px", 0.0), lerp("py", 0.0), math.radians(lerp("r", 0.0))
-            src = imgs[name]
-            sw, sh = src.size
-            s = 1 / (max(W / sw, H / sh) * z)
-            cx = sw / 2 + px * max(0, (sw - W * s) / 2)
-            cy = sh / 2 + py * max(0, (sh - H * s) / 2)
-            if mv.get("shake") and tau < 0.45:
-                amp = 16 * math.exp(-tau / 0.13)
-                cx += amp * math.sin(tau * 83) * s
-                cy += amp * math.cos(tau * 61) * s
-            a, b, d, ee = s * math.cos(r), s * math.sin(r), -s * math.sin(r), s * math.cos(r)
-            im = src.transform((W, H), Image.AFFINE, (a, b, cx - a * W / 2 - b * H / 2, d, ee, cy - d * W / 2 - ee * H / 2),
-                               resample=Image.BICUBIC)
-        arr = (np.asarray(im, dtype=np.uint16) * vig[..., None]) >> 8
+        idx = min(len(cur_frames) - 1, int(u * len(cur_frames)))
+        arr = (cur_frames[idx].astype(np.uint16) * vig) >> 8
         if mv.get("flash") and tau < 0.35:
             arr = arr + ((255 - arr) * (0.85 * math.exp(-tau / 0.08))).astype(np.uint16)
         im = Image.fromarray(arr.astype(np.uint8))
