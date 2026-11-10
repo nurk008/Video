@@ -151,12 +151,42 @@ def vignette():
     return ((1 - 0.38 * np.clip((r - 0.6) / 0.8, 0, 1) ** 1.6) * 256).astype(np.uint16)
 
 
+SCENES_VIDEO = ROOT.parent / "scenes_video"
+
+
+def load_video_frames(mp4_path: Path):
+    """Decode an AI-animated clip into a list of RGB PIL Images."""
+    probe = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=width,height", "-of", "csv=p=0:s=x", str(mp4_path)],
+        capture_output=True, text=True, check=True,
+    )
+    vw, vh = map(int, probe.stdout.strip().split("x"))
+    raw = subprocess.run(
+        ["ffmpeg", "-v", "error", "-i", str(mp4_path), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+        capture_output=True, check=True,
+    ).stdout
+    frame_bytes = vw * vh * 3
+    n_frames = len(raw) // frame_bytes
+    return [
+        Image.frombytes("RGB", (vw, vh), raw[i * frame_bytes:(i + 1) * frame_bytes])
+        for i in range(n_frames)
+    ]
+
+
 def worker(f0, f1, seg_path, segs, chunks):
     imgs = {}
+    vids = {}
     for s in segs:
-        if s["name"] not in imgs:
-            imgs[s["name"]] = Image.open(next(SCENES.glob(s["name"] + "_*.jpg"))).convert("RGB")
+        name = s["name"]
+        vp = SCENES_VIDEO / f"{name}.mp4"
+        if vp.exists() and vp.stat().st_size > 50_000:
+            if name not in vids:
+                vids[name] = load_video_frames(vp)
+        elif name not in imgs:
+            imgs[name] = Image.open(next(SCENES.glob(name + "_*.jpg"))).convert("RGB")
     vig = vignette()
+    sharpen = ImageFilter.UnsharpMask(radius=1.4, percent=110, threshold=2)
     cache = {}
     ff = subprocess.Popen(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
                            "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
@@ -169,27 +199,47 @@ def worker(f0, f1, seg_path, segs, chunks):
         while si + 1 < len(segs) and t >= segs[si + 1]["t0"]:
             si += 1
         sg = segs[si]
-        mv = MOVES[sg["name"]]
+        name = sg["name"]
+        mv = MOVES[name]
         tau = t - sg["t0"]
-        e = ease(min(1.0, max(0.0, tau / (sg["t1"] - sg["t0"]))), mv.get("ease", "soft"))
+        u = min(1.0, max(0.0, tau / (sg["t1"] - sg["t0"])))
+        e = ease(u, mv.get("ease", "soft"))
 
-        def lerp(key, default):
-            p = mv.get(key)
-            return p[0] + (p[1] - p[0]) * e if p else default
+        if name in vids:
+            vframes = vids[name]
+            pos = u * (len(vframes) - 1)
+            i0 = int(pos)
+            i1 = min(i0 + 1, len(vframes) - 1)
+            frac = pos - i0
+            src = Image.blend(vframes[i0], vframes[i1], frac) if frac > 0.01 and i1 != i0 else vframes[i0]
+            sw, sh = src.size
+            z = 1.01 + 0.04 * e
+            s = 1 / (max(W / sw, H / sh) * z)
+            cx, cy = sw / 2, sh / 2
+            if mv.get("shake") and tau < 0.45:
+                amp = 14 * math.exp(-tau / 0.13)
+                cx += amp * math.sin(tau * 83) * s
+                cy += amp * math.cos(tau * 61) * s
+            im = src.transform((W, H), Image.AFFINE, (s, 0, cx - s * W / 2, 0, s, cy - s * H / 2),
+                               resample=Image.BICUBIC).filter(sharpen)
+        else:
+            def lerp(key, default):
+                p = mv.get(key)
+                return p[0] + (p[1] - p[0]) * e if p else default
 
-        z, px, py, r = lerp("z", 1.0), lerp("px", 0.0), lerp("py", 0.0), math.radians(lerp("r", 0.0))
-        src = imgs[sg["name"]]
-        sw, sh = src.size
-        s = 1 / (max(W / sw, H / sh) * z)
-        cx = sw / 2 + px * max(0, (sw - W * s) / 2)
-        cy = sh / 2 + py * max(0, (sh - H * s) / 2)
-        if mv.get("shake") and tau < 0.45:
-            amp = 16 * math.exp(-tau / 0.13)
-            cx += amp * math.sin(tau * 83) * s
-            cy += amp * math.cos(tau * 61) * s
-        a, b, d, ee = s * math.cos(r), s * math.sin(r), -s * math.sin(r), s * math.cos(r)
-        im = src.transform((W, H), Image.AFFINE, (a, b, cx - a * W / 2 - b * H / 2, d, ee, cy - d * W / 2 - ee * H / 2),
-                           resample=Image.BICUBIC)
+            z, px, py, r = lerp("z", 1.0), lerp("px", 0.0), lerp("py", 0.0), math.radians(lerp("r", 0.0))
+            src = imgs[name]
+            sw, sh = src.size
+            s = 1 / (max(W / sw, H / sh) * z)
+            cx = sw / 2 + px * max(0, (sw - W * s) / 2)
+            cy = sh / 2 + py * max(0, (sh - H * s) / 2)
+            if mv.get("shake") and tau < 0.45:
+                amp = 16 * math.exp(-tau / 0.13)
+                cx += amp * math.sin(tau * 83) * s
+                cy += amp * math.cos(tau * 61) * s
+            a, b, d, ee = s * math.cos(r), s * math.sin(r), -s * math.sin(r), s * math.cos(r)
+            im = src.transform((W, H), Image.AFFINE, (a, b, cx - a * W / 2 - b * H / 2, d, ee, cy - d * W / 2 - ee * H / 2),
+                               resample=Image.BICUBIC)
         arr = (np.asarray(im, dtype=np.uint16) * vig[..., None]) >> 8
         if mv.get("flash") and tau < 0.35:
             arr = arr + ((255 - arr) * (0.85 * math.exp(-tau / 0.08))).astype(np.uint16)
