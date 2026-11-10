@@ -54,7 +54,7 @@ WAN22_SPACES = [
 ]
 
 
-def animate_one(name: str, steps: int = 4, duration: float = 3.5) -> bool:
+def animate_one(name: str, steps: int = 2, duration: float = 1.5) -> bool:
     out_path = VIDEO_DIR / f"{name}.mp4"
     if out_path.exists() and out_path.stat().st_size > 50_000:
         print(f"[skip] {name}.mp4 already exists ({out_path.stat().st_size // 1024} KB)")
