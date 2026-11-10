@@ -1,0 +1,5 @@
+__pycache__/
+production/build/**/*.wav
+production/build/**/seg*.mp4
+production/build/**/video.mp4
+production/build/**/concat.txt
