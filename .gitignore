@@ -3,3 +3,7 @@ production/build/**/*.wav
 production/build/**/seg*.mp4
 production/build/**/video.mp4
 production/build/**/concat.txt
+production/build_ep02/**/*.wav
+production/build_ep02/**/seg*.mp4
+production/build_ep02/**/video.mp4
+production/build_ep02/**/concat.txt

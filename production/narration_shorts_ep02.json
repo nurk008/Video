@@ -1,0 +1,67 @@
+{
+  "voices": {
+    "ru": "ru-RU-DmitryNeural",
+    "kz": "kk-KZ-DauletNeural",
+    "en": "en-US-ChristopherNeural"
+  },
+  "scenes": [
+    "scene_01", "scene_02", "scene_03", "scene_04",
+    "scene_05", "scene_06", "scene_07", "scene_08",
+    "scene_09", "scene_10", "scene_11", "scene_12",
+    "scene_13", "scene_14", "scene_15", "scene_16"
+  ],
+  "ru": [
+    "Шестьсот воинов с фитильными ружьями затаились в каменных окопах узкого ущелья, когда на них двинулась пятидесятитысячная армия!",
+    "Тысяча шестьсот сорок третий год. Правитель Джунгарии Эрдэни-Батур ведёт колоссальное войско, рассчитывая смять степные рубежи с одного удара.",
+    "У казахского султана Салкам Жангира под рукой всего шестьсот отборных бойцов. Выйти в открытое поле — верная гибель.",
+    "Но Жангир применяет невиданную в степи военную инженерию: за ночь в извилистом каньоне Орбулак его люди роют глубокие окопы — шанцы!",
+    "Триста воинов намертво перекрывают выход из теснины, а ещё триста стрелков прячутся на отвесных утёсах прямо над тропой.",
+    "Уверенный в лёгкой победе враг втягивается в узкое каменное горло, растянувшись на километры.",
+    "Жангир ждёт до последнего. Тлеющий фитиль касается пороха...",
+    "Залп! Со скал обрушиваются тонны камней и шквал свинца, мгновенно отсекая авангард!",
+    "В узкой щели огромная армия не может развернуться, а стрелки Жангира бьют из окопов сменными рядами — без единой паузы!",
+    "Каменный мешок становится непреодолимым: захватчики теряют десять тысяч бойцов, но не могут продвинуться ни на шаг.",
+    "Но на исходе вторых суток порох и свинец у шестисот защитников заканчиваются. Враг бросает в бой последние резервы...",
+    "И вдруг — камни под ногами начинают дрожать от раскатистого гула с запада!",
+    "Верный братскому долгу, из Самарканда на выручку примчался легендарный Жалантос-бахадур во главе двадцати тысяч свежих всадников!",
+    "Стальной кулак Жалантоса сходу бьёт в тыл измотанной армии вторжения, опрокидывая её в сокрушительном разгроме!",
+    "Орбулак навсегда вошёл в мировую историю: военный гений, огневой рубеж и братское плечо оказались сильнее многократного перевеса.",
+    "И захватчики до последней секунды не понимали, в какой капкан шагнули, ведь..."
+  ],
+  "kz": [
+    "Білтелі мылтық асынған алты жүз сарбаз тар шатқалдағы тас орда тапжылмай жатты, ал оларға қарсы елу мыңдық қалың қол келе жатты!",
+    "Мың алты жүз қырық үшінші жыл. Жоңғар билеушісі Эрдэни-Батур дала шебін бір соққымен таптап өтемін деп, сансыз әскерін бастап шықты.",
+    "Қазақ сұлтаны Салқам Жәңгірдің қолында небәрі алты жүз таңдаулы сарбаз ғана бар еді. Ашық далада соғысу — анық өлім.",
+    "Бірақ Жәңгір дала соғысында бұрын-соңды болмаған әскери айла қолданды: бір түннің ішінде Орбұлақ шатқалында терең ор қазып, тастан бекініс соқты!",
+    "Үш жүз жауынгер шатқалдың шығар аузын тас бекітті, ал қалған үш жүз мерген құлама жардың үстінде жасырынды.",
+    "Оңай жеңіске сенген жау әскері тар тас қапшыққа лек-легімен кіріп, бірнеше шақырымға созылды.",
+    "Жәңгір жауды дәл түбіне дейін жіберді. Шоқтанған білте оқ-дәріге тиді...",
+    "Сол сәтте тау шайқалды! Жартастан құлаған тас пен қорғасын жаңбыры жаудың алдыңғы шебін лезде жусатып салды!",
+    "Тар шатқалда қалың қол жазылып соғыса алмады, ал Жәңгірдің мергендері ор ішінен кезектесіп, тоқтаусыз оқ жаудырды!",
+    "Тас қақпаннан өту мүмкін болмады: басқыншылар он мың сарбазынан айырылса да, бір қадам алға баса алмады.",
+    "Бірақ екінші күннің соңында алты жүз батырдың оқ-дәрісі таусыла бастады. Жау соңғы резервін лақтырды...",
+    "Дәл сол сәтте батыс жақтан жер дүниені солқылдатқан дүбір естілді!",
+    "Бауырластық сертке адал Самарқан әмірі — әйгілі Жалаңтөс Баһадүр жиырма мың атты әскерімен көмекке жетті!",
+    "Жалаңтөстің темірдей жұдырығы титықтаған жаудың ту сыртынан соғып, тас-талқанын шығарды!",
+    "Орбұлақ шайқасы әлемдік әскери тарихқа алтын әріппен жазылды: тапқырлық пен бауырластық сансыз әскерден де күшті екенін дәлелдеді.",
+    "Ал басқыншылар соңғы сәтке дейін қандай қақпанға түскенін сезбеді де, өйткені..."
+  ],
+  "en": [
+    "Six hundred warriors with matchlock muskets lay hidden in stone trenches inside a narrow gorge as a fifty-thousand-strong army marched straight toward them!",
+    "The year is 1643. Dzungar ruler Erdeni Batur leads a colossal invasion force, expecting to crush the steppe frontier in a single blow.",
+    "Kazakh commander Salkam Zhangir has only six hundred elite fighters at his side. Facing the enemy in the open plain means certain death.",
+    "So Zhangir turns to military engineering never before seen on the steppe: overnight inside the winding Orbulak canyon, his men dig deep fortified trenches!",
+    "Three hundred warriors seal the canyon exit, while three hundred sharpshooters hide high on the sheer cliffs directly above the trail.",
+    "Expecting an easy victory, the invading column pours into the narrow stone bottleneck, stretched thin for miles.",
+    "Zhangir holds his fire until the last second. A glowing fuse touches the black powder...",
+    "Fire! Tons of boulders and a hailstorm of lead crash down from the cliffs, instantly severing the vanguard!",
+    "Trapped in the narrow chasm, the massive army cannot deploy, while Zhangir's riflemen fire in rotating ranks without a single pause!",
+    "The stone trap is impenetrable: the invaders lose ten thousand men without advancing a single step.",
+    "Yet by the end of the second day, the six hundred defenders run out of powder and lead. The enemy throws in every last reserve...",
+    "And suddenly—the very stones underfoot begin to tremble from a thunderous roar in the west!",
+    "True to the code of brotherhood, legendary commander Zhalantos Bahadur arrives at full gallop from Samarkand with twenty thousand fresh horsemen!",
+    "Zhalantos's iron fist slams straight into the rear of the exhausted invasion army, shattering their lines completely!",
+    "Orbulak entered world military history forever: tactical genius, firepower, and brotherhood proved stronger than overwhelming odds.",
+    "And the invaders never realized what trap they had stepped into until the very last second, because..."
+  ]
+}
