@@ -44,20 +44,6 @@ PROMPTS = {
     "scene_20": "Extreme close-up of a rough hand in a sheepskin sleeve tightening its grip on braided leather reins and smoothly drawing a curved steel saber blade from its leather scabbard, metallic gleam in dim pre-battle light",
 }
 
-LTX_SPACES = [
-    "Lightricks/ltx-video-distilled",
-    "freddyaboulton/ltx-video-distilled",
-    "victor/ltx-video-distilled",
-    "KingNish/ltx-video-distilled",
-]
-
-WAN_SPACES = [
-    "zerogpu-aoti/wan2-2-fp8da-aoti-faster",
-    "r3gm/wan2-2-fp8da-aoti-preview",
-    "r3gm/wan2-2-fp8da-aoti-preview2",
-    "cbensimon/wan2-2-fp8da-aoti-preview2",
-]
-
 
 def animate_one(name: str, force: bool = False) -> bool:
     out_path = VIDEO_DIR / f"{name}.mp4"
@@ -68,11 +54,63 @@ def animate_one(name: str, force: bool = False) -> bool:
     img_path = next(SCENES_DIR.glob(f"{name}_*.jpg"))
     prompt = PROMPTS[name]
     hf_token = os.environ.get("HF_TOKEN")
+    tokens = [hf_token, None] if hf_token else [None]
 
-    for sp in LTX_SPACES:
+    for tok in tokens:
+        # 1. DeepRat LTX-Video-ZeroGPU-Optimized (low GPU duration reservation ~15s)
         try:
             t0 = time.time()
-            client = Client(sp, token=hf_token, verbose=False)
+            client = Client("DeepRat/LTX-Video-ZeroGPU-Optimized", token=tok, verbose=False)
+            res = client.predict(
+                prompt=prompt,
+                negative_prompt="worst quality, inconsistent motion, blurry, jittery, distorted, static",
+                input_image_filepath=handle_file(str(img_path)),
+                input_video_filepath=None,
+                height_ui=768,
+                width_ui=448,
+                mode="image-to-video",
+                duration_ui=2.5,
+                ui_frames_to_use=9,
+                seed_ui=42,
+                randomize_seed=True,
+                ui_guidance_scale=1.0,
+                improve_texture_flag=False,
+                slow_motion_flag=False,
+                api_name="/image_to_video",
+            )
+            vid_file = res[0]["video"] if isinstance(res[0], dict) else res[0]
+            shutil.copy(vid_file, out_path)
+            print(f"[ok-deeprat] {name} in {time.time() - t0:.1f}s -> {out_path.stat().st_size // 1024} KB", flush=True)
+            return True
+        except Exception as e:
+            print(f"[warn-deeprat] {name}: {str(e).splitlines()[0][:140]}", flush=True)
+
+        # 2. Upsampler/ltx-video (20s GPU reservation)
+        try:
+            t0 = time.time()
+            client = Client("Upsampler/ltx-video", token=tok, verbose=False)
+            res = client.predict(
+                input_image=handle_file(str(img_path)),
+                prompt=prompt,
+                duration=2.5,
+                enhance_prompt=False,
+                seed=42,
+                randomize_seed=True,
+                height=768,
+                width=448,
+                api_name="/generate_video",
+            )
+            vid_file = res[0]["video"] if isinstance(res[0], dict) else res[0]
+            shutil.copy(vid_file, out_path)
+            print(f"[ok-upsampler] {name} in {time.time() - t0:.1f}s -> {out_path.stat().st_size // 1024} KB", flush=True)
+            return True
+        except Exception as e:
+            print(f"[warn-upsampler] {name}: {str(e).splitlines()[0][:140]}", flush=True)
+
+        # 3. Lightricks/ltx-video-distilled
+        try:
+            t0 = time.time()
+            client = Client("Lightricks/ltx-video-distilled", token=tok, verbose=False)
             res = client.predict(
                 prompt=prompt,
                 negative_prompt="worst quality, inconsistent motion, blurry, jittery, distorted, static",
@@ -91,30 +129,11 @@ def animate_one(name: str, force: bool = False) -> bool:
             )
             vid_file = res[0]["video"] if isinstance(res[0], dict) else res[0]
             shutil.copy(vid_file, out_path)
-            print(f"[ok-ltx] {name} via {sp} in {time.time() - t0:.1f}s -> {out_path.stat().st_size // 1024} KB", flush=True)
+            print(f"[ok-ltx] {name} in {time.time() - t0:.1f}s -> {out_path.stat().st_size // 1024} KB", flush=True)
             return True
         except Exception as e:
-            msg = str(e).splitlines()[0][:160]
-            print(f"[warn-ltx] {name} on {sp}: {msg}", flush=True)
+            print(f"[warn-ltx] {name}: {str(e).splitlines()[0][:140]}", flush=True)
 
-    for sp in WAN_SPACES:
-        try:
-            t0 = time.time()
-            client = Client(sp, token=hf_token, verbose=False)
-            res = client.predict(
-                input_image=handle_file(str(img_path)),
-                prompt=prompt,
-                steps=2,
-                duration_seconds=2.0,
-                api_name="/generate_video",
-            )
-            vid_file = res[0]["video"] if isinstance(res[0], dict) else res[0]
-            shutil.copy(vid_file, out_path)
-            print(f"[ok-wan] {name} via {sp} in {time.time() - t0:.1f}s -> {out_path.stat().st_size // 1024} KB", flush=True)
-            return True
-        except Exception as e:
-            msg = str(e).splitlines()[0][:160]
-            print(f"[warn-wan] {name} on {sp}: {msg}", flush=True)
     return False
 
 
