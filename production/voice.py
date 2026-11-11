@@ -30,15 +30,13 @@ VOICES = {  # lang: (HuggingFace path, speaker id) — all male narrators
     "en": ("en/en_US/ryan/high/en_US-ryan-high", None),
 }
 TTS_FIX = {"en": [("1726", "seventeen twenty-six")]}  # pronunciation only, subtitles keep digits
-TARGET = 62.8   # s — Shorts 62–65 s (TikTok Creator Rewards pays only > 60 s)
-TAIL = 0.10     # s after the last word: the loop cut point
-GAP0 = 0.20     # s pause between sentences (re-fitted)
-MAX_SIL = 0.14  # s — longer pauses inside a sentence are squeezed to this
-L_MIN = 0.72    # fastest allowed model speed (lower = faster)
-MAX_TEMPO = 1.10  # extra pitch-preserving speed-up if still too long
-VOICE_FX = ("aresample=48000,highpass=f=70,rubberband=pitch=0.95,"
-            "equalizer=f=120:t=q:w=1:g=3,equalizer=f=3000:t=q:w=1.5:g=2,"
-            "acompressor=threshold=0.125:ratio=3:attack=5:release=100:makeup=1.5")
+TARGET_SCALE = {"ru": 1.08, "kz": 1.05, "en": 1.06}  # >1.0 = slower, clearer articulation
+TAIL = 0.15     # s after the last word: the loop cut point
+GAP0 = 0.38     # s clear pause between sentences
+MAX_SIL = 0.28  # s natural pause at commas/dashes inside a sentence
+VOICE_FX = ("aresample=48000,highpass=f=65,"
+            "equalizer=f=135:t=q:w=1.2:g=2.0,equalizer=f=3200:t=q:w=1.3:g=2.5,"
+            "acompressor=threshold=0.14:ratio=2.5:attack=10:release=120:makeup=1.45")
 END_RE = re.compile(r"[.!?…]+[»\"”]?$")
 PAUSE_RE = re.compile(r"[,;:]+[»\"”]?$")
 
@@ -153,25 +151,17 @@ def run(lang):
     sents = sentences(tokens(lang))
     ns = len(sents)
 
-    # pass 1: natural speed → measure; pass 2: re-synthesize with fitted length_scale
-    clips = synth_all(voice, sid, sents, lang, 1.0)
-    speech = sum(len(c) for c in clips) / sr
-    L = float(np.clip((TARGET - TAIL - GAP0 * (ns - 1)) / speech, L_MIN, 1.35))
+    L = TARGET_SCALE.get(lang, 1.06)
     clips = synth_all(voice, sid, sents, lang, L)
     speech = sum(len(c) for c in clips) / sr
-    gap = float(np.clip((TARGET - TAIL - speech) / max(1, ns - 1), 0.12, 0.6))
+    gap = GAP0
     audio, words, T = assemble(clips, sents, sr, gap, lang)
-    tempo = float(np.clip(T / TARGET, 1.0, MAX_TEMPO))
-    if tempo > 1.0:   # pitch-preserving speed-up; rescale all timings
-        T /= tempo
-        for w in words:
-            w["t0"], w["t1"] = round(w["t0"] / tempo, 3), round(w["t1"] / tempo, 3)
-    print(f"[{lang}] sentences={ns} length_scale={L:.3f} gap={gap:.3f}s tempo={tempo:.3f} total={T:.2f}s")
+    print(f"[{lang}] sentences={ns} length_scale={L:.3f} gap={gap:.3f}s speech={speech:.2f}s total={T:.2f}s")
 
     starts = []
     for si in range(len(DATA["scenes"])):
         ws = [w for w in words if w["scene"] == si]
-        starts.append(max(0.0, ws[0]["t0"] - 0.06))
+        starts.append(max(0.0, ws[0]["t0"] - 0.08))
     starts[0] = 0.0
     scenes = [{"id": si + 1, "images": DATA["scenes"][si].split("|"),
                "t0": round(starts[si], 3),
@@ -179,9 +169,8 @@ def run(lang):
               for si in range(len(starts))]
 
     wavfile.write(out / "voice_raw.wav", sr, (np.clip(audio, -1, 1) * 32767).astype(np.int16))
-    fx = VOICE_FX.replace("rubberband=pitch=0.95", f"rubberband=pitch=0.95:tempo={tempo:.4f}")
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(out / "voice_raw.wav"),
-                    "-af", fx, "-ar", "48000", "-ac", "1", str(out / "voice.wav")], check=True)
+                    "-af", VOICE_FX, "-ar", "48000", "-ac", "1", str(out / "voice.wav")], check=True)
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(out / "voice.wav"),
                     "-b:a", "128k", str(out / "voice_raw.mp3")], check=True)
     (out / "words.json").write_text(json.dumps(words, ensure_ascii=False, indent=1), encoding="utf-8")

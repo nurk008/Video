@@ -586,12 +586,12 @@ def run(lang):
     v = fit(v.astype(np.float64) / 32768.0, N)
     vr = frame_rms(v)
     v_level = np.mean(vr[vr > np.max(vr) * 0.05])
-    sfx *= (v_level * 0.35) / np.mean(frame_rms(sfx.mean(1)))
+    sfx *= (v_level * 0.26) / np.mean(frame_rms(sfx.mean(1)))
 
     env = lp(np.abs(v), 6, 2)
     env /= np.percentile(env, 95) + 1e-9
-    duck = 1 - 0.5 * np.clip(env, 0, 1)
-    out = reverb(v, 0.9, 0.08, seed=3)[:N] + sfx * duck[:, None]
+    duck = 1 - 0.62 * np.clip(env, 0, 1)
+    out = reverb(v, 0.32, 0.025, seed=3)[:N] + sfx * duck[:, None]
     out *= 0.85 / np.percentile(np.abs(out), 99.95)
     write(B / "mix_premaster.wav", softclip(out))
     loudnorm(B / "mix_premaster.wav", B / "mix.wav")

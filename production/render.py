@@ -186,8 +186,8 @@ def worker(f0, f1, seg_path, segs, chunks):
     cache = {}
     ff = subprocess.Popen(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
                            "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                           "-c:v", "libx264", "-preset", "faster", "-crf", "18", "-maxrate", "11M",
-                           "-bufsize", "22M", "-pix_fmt", "yuv420p", "-g", "60", str(seg_path)],
+                           "-c:v", "libx264", "-preset", "faster", "-crf", "21", "-maxrate", "5.5M",
+                           "-bufsize", "11M", "-pix_fmt", "yuv420p", "-g", "60", str(seg_path)],
                           stdin=subprocess.PIPE)
     si = ci = 0
     cur_name = None
