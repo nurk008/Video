@@ -1,6 +1,7 @@
 __pycache__/
 .venv/
 production/build/**/*.wav
+production/build/**/*.mp3
 production/build/**/seg*.mp4
 production/build/**/video.mp4
 production/build/**/concat.txt
