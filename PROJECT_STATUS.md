@@ -29,3 +29,11 @@
 ## Следующий шаг (с чего продолжать на любом аккаунте):
 1. Просмотр и публикация обновлённых роликов Выпуска №2 (`output/EP02_Orbulak_Shorts_RU.mp4`, `KZ`, `EN`).
 2. Переход к созданию Выпуска №3.
+
+## Выпуск №3 — «Тайна Великой Степи: „Жеті Жарғы“ Тауке-хана» (Завершено)
+- **Сценарий (16 сцен, Hanafi-compliant, 100% Сидк):** `zheti_zhargy_viral_script.md`
+- **Сборщик (жёсткая камера 1080×1920 без деформации, студийные голоса + халяль SFX):** `production/build_ep03_neural.py`
+- **Готовые вертикальные видео (1080×1920, 30 fps, -14 LUFS):**
+  - RU (`ru-RU-DmitryNeural`): `output/EP03_Zheti_Zhargy_Shorts_RU.mp4` (`136.5s`, `77.8 MB`)
+  - KZ (`kk-KZ-DauletNeural`): `output/EP03_Zheti_Zhargy_Shorts_KZ.mp4` (`126.3s`, `72.3 MB`)
+  - EN (`en-US-BrianMultilingualNeural`): `output/EP03_Zheti_Zhargy_Shorts_EN.mp4` (`140.3s`, `79.4 MB`)

@@ -11,3 +11,6 @@ production/build_ep02/_bin/
 production/build_ep02/**/seg*.mp4
 production/build_ep02/**/video.mp4
 production/build_ep02/**/concat.txt
+production/build_ep03/**/*.wav
+production/build_ep03/**/*.mp3
+production/build_ep03/**/video_silent.mp4
