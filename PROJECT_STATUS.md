@@ -37,3 +37,11 @@
   - RU (`ru-RU-DmitryNeural`): `output/EP03_Zheti_Zhargy_Shorts_RU.mp4` (`136.5s`, `77.8 MB`)
   - KZ (`kk-KZ-DauletNeural`): `output/EP03_Zheti_Zhargy_Shorts_KZ.mp4` (`126.3s`, `72.3 MB`)
   - EN (`en-US-BrianMultilingualNeural`): `output/EP03_Zheti_Zhargy_Shorts_EN.mp4` (`140.3s`, `79.4 MB`)
+
+## Выпуск №4 — «Зимний капкан Улытау (1510): Касым-хан и Мойынсыз Хасан» (`EP04`, 2026-11-13)
+- **Сценарий (`16 сцен`, бесшовная петля Seamless Loop):** [`ulytau_1510_viral_script.md`](ulytau_1510_viral_script.md)
+- **Генератор (`1080×1920`, `30 fps`, жёсткая субпиксельная кинокамера, `-14 LUFS`, zero-face / zero-instrument):** [`production/build_ep04_neural.py`](production/build_ep04_neural.py)
+- **Правило по языкам (установлено пользователем):** начиная с Выпуска №4 и для всех последующих серий собирать и публиковать **только казахскую версию (`KZ`)**.
+- **Готовый ролик в [`output/`](output/):**
+  - `EP04_Ulytau_1510_Shorts_KZ.mp4` (`131.3 с`, `85.5 МБ`, `kk-KZ-DauletNeural`, 286 слов, загружен на GitHub и скопирован в `~/Downloads`)
+  - *(RU `149.7 с / 96.6 МБ` и EN `153.1 с / 97.3 МБ` также успели собраться локально до переключения режима «только KZ»).*

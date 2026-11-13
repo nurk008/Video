@@ -14,3 +14,9 @@ production/build_ep02/**/concat.txt
 production/build_ep03/**/*.wav
 production/build_ep03/**/*.mp3
 production/build_ep03/**/video_silent.mp4
+production/build_ep04/**/*.wav
+production/build_ep04/**/*.mp3
+production/build_ep04/**/video_silent.mp4
+production/build_ep04/qa/
+output/EP04_Ulytau_1510_Shorts_RU.mp4
+output/EP04_Ulytau_1510_Shorts_EN.mp4
