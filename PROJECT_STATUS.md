@@ -52,3 +52,9 @@
 - **Сборщик (`1080×1920`, `30 fps`, жёсткая камера без «желе», `-14 LUFS`, zero-face / zero-instrument):** [`production/build_ep05_kz.py`](production/build_ep05_kz.py)
 - **Готовый ролик в [`output/`](output/):**
   - `EP05_Tavekel_1598_Shorts_KZ.mp4` (`104.8 с`, `60.2 МБ`, `kk-KZ-DauletNeural`, 217 слов, загружен на GitHub и скопирован в `~/Downloads`)
+
+## Выпуск №6 — «Екі империя қысқанда, Абылай хан даланы қалай сақтады?» (`EP06`, 2026-11-14, KZ ONLY • TURBO RETENTION)
+- **Сценарий (`12 сцен / 14 визуальных склеек`, бесшовная петля Seamless Loop, хук без дат + старт с `0.05s` impact SFX, паттерн-брейк на `11.4s`, 4-тірек: Тірек • Айла • Соққы • Шекара):** [`abylai_turbo_viral_script.md`](abylai_turbo_viral_script.md)
+- **Движок тактической анимации и карт / Сборщик (`1080×1920`, `30 fps`, `+14%` темп, `-14 LUFS`, zero-face / zero-instrument):** [`production/build_ep06_kz.py`](production/build_ep06_kz.py) — 5 камера-бақылаулы 3D-бедерлі тактикалық карта (`MapCamera`, реки Ертіс, Сырдария, Іле, тепе-теңдік Ресей/Цин, Шығыс қарқыны Жетісу–Тарбағатай–Зайсан, Жайық–Алтай шекарасы) + кинетика поверх 8 фотореальных плит (`scenes_ep06/`).
+- **Готовый ролик в [`output/`](output/):**
+  - `EP06_Abylai_Turbo_Shorts_KZ.mp4` (`33.1 с`, `20.3 МБ`, `kk-KZ-DauletNeural` `+14%`, 87 слов, загружен на GitHub и скопирован в `~/Downloads`)

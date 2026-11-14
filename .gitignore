@@ -24,3 +24,7 @@ production/build_ep05/**/*.wav
 production/build_ep05/**/*.mp3
 production/build_ep05/**/video_silent.mp4
 production/build_ep05/qa/
+production/build_ep06/**/*.wav
+production/build_ep06/**/*.mp3
+production/build_ep06/**/video_silent.mp4
+production/build_ep06/qa/
