@@ -20,3 +20,7 @@ production/build_ep04/**/video_silent.mp4
 production/build_ep04/qa/
 output/EP04_Ulytau_1510_Shorts_RU.mp4
 output/EP04_Ulytau_1510_Shorts_EN.mp4
+production/build_ep05/**/*.wav
+production/build_ep05/**/*.mp3
+production/build_ep05/**/video_silent.mp4
+production/build_ep05/qa/
