@@ -52,7 +52,7 @@
 - **Добавлены модульные правила (`.agents/rules/`):**
   - `content-halal-history.md` (`trigger: model_decision`) — правила фактологии, Ханафи-регламента, zero-face и KZ-сценариев.
   - `video-pipeline.md` (`trigger: glob`) — технические стандарты рендера (`1080×1920`, `30 fps`, `-14 LUFS`, жёсткая камера без `warp`, портативные пути).
-  - `publish-checklist.md` (`trigger: manual`) — чек-лист перед публикацией (подключается через `@rules:publish-checklist`).
+  - `publish-checklist.md` (`trigger: model_decision`) — чек-лист перед публикацией (подключается автоматически при подготовке к выкладке).
 - **Добавлены проектные слэш-команды (`.agents/skills/`):**
   - `/new-episode` — полный цикл создания нового выпуска (`EP06+`, только KZ).
   - `/check-halal` — 6-ступенчатый аудит сценария, промптов и звука.

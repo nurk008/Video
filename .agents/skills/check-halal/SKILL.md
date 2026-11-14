@@ -3,9 +3,13 @@ name: check-halal
 description: Audits an episode script, scene descriptions, image prompts, or build script against the project's Hanafi content rules, historical accuracy (Sidq), zero-face visuals, zero-instrument audio, and Kazakh TTS quality. Use before generating images or rendering video.
 ---
 
-# Аудит сценария и промптов (`/check-halal`)
+# Аудит сценария, промптов и сборки (`/check-halal`)
 
-Проверь указанный пользователем файл сценария, таблицу сцен, промпты или массив `EPXX_SCRIPT` в сборочном скрипте по 6 жёстким критериям (опираясь на `hanafi_ai_content_rules.md` и `kazakh_history_chat.md`).
+Если пользователь указал конкретный файл — проверь его. Если пользователь запустил `/check-halal` **без указания файлов**, автоматически определи объект проверки:
+1. Сначала посмотри изменённые/новые файлы через `git status -s` (активный выпуск в работе).
+2. Если незафиксированных правок нет — возьми последний выпуск из `PROJECT_STATUS.md` (его сценарий `*_viral_script.md`, сборочный скрипт `production/build_ep*.py` и при наличии итоговый `.mp4` в `output/`).
+
+Проверь найденный сценарий, описания сцен, промпты, массив `EPXX_SCRIPT` и (если есть) параметры рендера (`1080×1920`, `30 fps`, `-14 LUFS`, жёсткая камера без `warp`) по 6 жёстким критериям (опираясь на `hanafi_ai_content_rules.md` и `kazakh_history_chat.md`).
 
 ## Протокол проверки (6 гейтов)
 

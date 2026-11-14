@@ -1,11 +1,11 @@
 ---
-trigger: manual
-description: "Manual checklist for publishing Shorts/Reels/TikTok episodes (pre-upload, upload, and first-hour/24h protocol). Attach with @rules:publish-checklist when releasing a video."
+trigger: model_decision
+description: "Apply when preparing to publish, release, title, caption, hashtag, or check upload readiness of an episode for YouTube Shorts, Reels, or TikTok."
 ---
 
 # Чек-лист публикации выпуска (Shorts / Reels / TikTok)
 
-Сокращённый регламент для выкладки серии (полная база и прогрев новых аккаунтов — в @ai_history_channel_guide_and_history.md, Документ 3). Учтены требования @hanafi_ai_content_rules.md.
+Сокращённый регламент для выкладки серии (полная база и прогрев новых аккаунтов — в @ai_history_channel_guide_and_history.md, Документ 3). Учтены требования @hanafi_ai_content_rules.md. Если пользователь не назвал конкретный файл — сам определи самый свежий ролик в `output/` и его сценарий по `PROJECT_STATUS.md`.
 
 ## 1. До публикации (за 30 минут)
 * [ ] Видео строго `1080×1920`, `30 fps`, звук `-14 LUFS`, субтитры в безопасной зоне (не перекрываются интерфейсом кнопок справа и описанием снизу).
