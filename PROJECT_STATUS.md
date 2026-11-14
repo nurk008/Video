@@ -54,10 +54,10 @@
   - `EP06_Abylai_Turbo_Shorts_KZ.mp4` (`33.1 с`, `20.3 МБ`, `kk-KZ-DauletNeural` `+14%`, 87 слов, загружен на GitHub и скопирован в `~/Downloads`)
 
 ## YouTube Long-Form №1 — «Қазақ хандығының алты ұлы жеңісі (1510–1771)» (`YT_LONG_01`, 2026-11-14, 16:9 Full HD, KZ ONLY)
-- **Сценарий и SEO-пакет (`30 сцен / 7 глав`, `00:00–02:48` с готовыми YouTube-таймкодами, заголовком и pin-комментарием):** [`kazakh_khanate_6_victories_youtube_long_script.md`](kazakh_khanate_6_victories_youtube_long_script.md)
-- **Генератор (`1920×1080`, `16:9`, `30 fps`, `+8%` темп, `-14.1 LUFS`, 3 нативных широкоэкранных режима без обрезки голов/объектов, zero-face / zero-instrument):** [`production/build_youtube_long_kz.py`](production/build_youtube_long_kz.py) — 10 широкоэкранных 3D-карт (`WidescreenMapCamera`, реки Жайық, Ертіс, Сырдария, Іле, Зеравшан), 12 тактических Сплит-Досье и 8 панорамных глав.
+- **Анализ конкурентов и сценарий (`118 сцен / 8 глав`, `1 873 слова`, `00:00–12:50` с точными YouTube-таймкодами, SEO-заголовком и pin-комментарием):** [`kazakh_khanate_6_victories_youtube_long_script.md`](kazakh_khanate_6_victories_youtube_long_script.md) — учтены лучшие механики Historia Civilis (тактические полковые блоки), Kings and Generals / BazBattles (трёхфазные карты манёвров), Knowledgia (вафельные диаграммы соотношения сил, динамические границы) и Vox / Fern (системные графы, шкала таймлайна, весы баланса сил).
+- **6-режимный процедурный движок (`1920×1080`, `16:9`, `30 fps`, `+4%` темп, `-14.1 LUFS`, 4-поточный параллельный рендер, zero-face / zero-instrument):** [`production/build_youtube_long_kz.py`](production/build_youtube_long_kz.py) + каталог 118 сцен [`production/yt_long_scenes_kz.py`](production/yt_long_scenes_kz.py) (`tactical_battle`, `strategic_atlas`, `order_of_battle`, `system_diagram`, `timeline_chronicle`, `cinema_montage`).
 - **Готовый горизонтальный ролик в [`output/`](output/):**
-  - `YT_LONG_01_Kazakh_Khanate_16x9_KZ.mp4` (`167.9 с` / `2 мин 48 с`, `40.3 МБ`, `kk-KZ-DauletNeural` `+8%`, 414 слов, загружен на GitHub и скопирован в `~/Downloads`)
+  - `YT_LONG_01_Kazakh_Khanate_16x9_KZ.mp4` (`770.3 с` / `12 мин 50 с`, `87.0 МБ`, `kk-KZ-DauletNeural` `+4%`, 1 873 слова, загружен на GitHub и скопирован в `~/Downloads`)
 
 ## Оптимизация рабочего процесса Antigravity (`2026-11-14`)
 - **Разгружен [`GEMINI.md`](GEMINI.md):** на старте чата больше не требуется перечитывать 134+ КБ справочников, сохранены только быстрый Git-протокол и жёсткие инварианты проекта.
