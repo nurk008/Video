@@ -35,3 +35,7 @@ production/build_yt_long01/**/video_silent.mp4
 production/build_yt_long01/**/concat.txt
 production/build_yt_long01/cache_*.jpg
 production/build_yt_long01/qa/
+production/build_ep07/**/*.wav
+production/build_ep07/**/*.mp3
+production/build_ep07/**/video_silent.mp4
+production/build_ep07/qa/
