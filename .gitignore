@@ -43,3 +43,7 @@ production/build_ep08/**/*.wav
 production/build_ep08/**/*.mp3
 production/build_ep08/**/video_silent.mp4
 production/build_ep08/qa/
+production/build_b2b01/**/*.wav
+production/build_b2b01/**/*.mp3
+production/build_b2b01/**/video_silent.mp4
+production/build_b2b01/qa/

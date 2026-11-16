@@ -1,0 +1,931 @@
+{
+  "hash": "1d36b674bc6205d8990b145dda2fae011c9738671d30adc60f19c395e1c2b89f",
+  "voice": "en-US-BrianMultilingualNeural",
+  "items": [
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.180291,
+          "text": "Why"
+        },
+        {
+          "offset": 0.276458,
+          "duration": 0.132208,
+          "text": "do"
+        },
+        {
+          "offset": 0.420666,
+          "duration": 0.336541,
+          "text": "ninety"
+        },
+        {
+          "offset": 0.76925,
+          "duration": 0.432708,
+          "text": "percent"
+        },
+        {
+          "offset": 1.213958,
+          "duration": 0.132208,
+          "text": "of"
+        },
+        {
+          "offset": 1.358166,
+          "duration": 0.348541,
+          "text": "business"
+        },
+        {
+          "offset": 1.71875,
+          "duration": 0.444708,
+          "text": "videos"
+        },
+        {
+          "offset": 2.1755,
+          "duration": 0.192291,
+          "text": "get"
+        },
+        {
+          "offset": 2.379791,
+          "duration": 0.396625,
+          "text": "swiped"
+        },
+        {
+          "offset": 2.788458,
+          "duration": 0.3245,
+          "text": "away"
+        },
+        {
+          "offset": 3.125,
+          "duration": 0.108166,
+          "text": "in"
+        },
+        {
+          "offset": 3.245208,
+          "duration": 0.132208,
+          "text": "two"
+        },
+        {
+          "offset": 3.389416,
+          "duration": 0.564916,
+          "text": "seconds"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.072125,
+          "duration": 0.372583,
+          "text": "Static"
+        },
+        {
+          "offset": 0.45675,
+          "duration": 0.444708,
+          "text": "photos"
+        },
+        {
+          "offset": 0.913458,
+          "duration": 0.120208,
+          "text": "and"
+        },
+        {
+          "offset": 1.045666,
+          "duration": 0.3005,
+          "text": "dull"
+        },
+        {
+          "offset": 1.358166,
+          "duration": 0.348541,
+          "text": "talking"
+        },
+        {
+          "offset": 1.71875,
+          "duration": 0.288458,
+          "text": "heads"
+        },
+        {
+          "offset": 2.01925,
+          "duration": 0.3005,
+          "text": "fail"
+        },
+        {
+          "offset": 2.33175,
+          "duration": 0.072125,
+          "text": "to"
+        },
+        {
+          "offset": 2.415875,
+          "duration": 0.240375,
+          "text": "hold"
+        },
+        {
+          "offset": 2.66825,
+          "duration": 0.516833,
+          "text": "attention"
+        },
+        {
+          "offset": 3.858166,
+          "duration": 0.516833,
+          "text": "prospects"
+        },
+        {
+          "offset": 4.387,
+          "duration": 0.3245,
+          "text": "scroll"
+        },
+        {
+          "offset": 4.723541,
+          "duration": 0.420666,
+          "text": "past"
+        },
+        {
+          "offset": 5.15625,
+          "duration": 0.120208,
+          "text": "while"
+        },
+        {
+          "offset": 5.288458,
+          "duration": 0.192291,
+          "text": "your"
+        },
+        {
+          "offset": 5.492791,
+          "duration": 0.180291,
+          "text": "ad"
+        },
+        {
+          "offset": 5.685083,
+          "duration": 0.3125,
+          "text": "budget"
+        },
+        {
+          "offset": 6.009625,
+          "duration": 0.45675,
+          "text": "burns"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.060083,
+          "duration": 0.204333,
+          "text": "Now"
+        },
+        {
+          "offset": 0.276458,
+          "duration": 0.3005,
+          "text": "watch"
+        },
+        {
+          "offset": 0.588958,
+          "duration": 0.216333,
+          "text": "how"
+        },
+        {
+          "offset": 0.817291,
+          "duration": 0.4327089,
+          "text": "3D"
+        },
+        {
+          "offset": 1.262,
+          "duration": 0.360583,
+          "text": "motion"
+        },
+        {
+          "offset": 1.634625,
+          "duration": 0.48075,
+          "text": "sells"
+        },
+        {
+          "offset": 2.5,
+          "duration": 0.228375,
+          "text": "For"
+        },
+        {
+          "offset": 2.740375,
+          "duration": 0.216333,
+          "text": "real"
+        },
+        {
+          "offset": 2.96875,
+          "duration": 0.3005,
+          "text": "estate"
+        },
+        {
+          "offset": 3.28125,
+          "duration": 0.600958,
+          "text": "developers"
+        },
+        {
+          "offset": 3.90625,
+          "duration": 0.14425,
+          "text": "we"
+        },
+        {
+          "offset": 4.0625,
+          "duration": 0.288458,
+          "text": "turn"
+        },
+        {
+          "offset": 4.363,
+          "duration": 0.3125,
+          "text": "flat"
+        },
+        {
+          "offset": 4.6875,
+          "duration": 0.528833,
+          "text": "brochures"
+        },
+        {
+          "offset": 5.228375,
+          "duration": 0.3005,
+          "text": "into"
+        },
+        {
+          "offset": 5.540875,
+          "duration": 0.336541,
+          "text": "living"
+        },
+        {
+          "offset": 5.889416,
+          "duration": 0.384625,
+          "text": "district"
+        },
+        {
+          "offset": 6.286041,
+          "duration": 0.348541,
+          "text": "maps"
+        },
+        {
+          "offset": 6.646625,
+          "duration": 0.120208,
+          "text": "and"
+        },
+        {
+          "offset": 6.778833,
+          "duration": 0.46875,
+          "text": "routes"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.084125,
+          "text": "In"
+        },
+        {
+          "offset": 0.180291,
+          "duration": 0.276458,
+          "text": "five"
+        },
+        {
+          "offset": 0.46875,
+          "duration": 0.564916,
+          "text": "seconds"
+        },
+        {
+          "offset": 1.25,
+          "duration": 0.372583,
+          "text": "buyers"
+        },
+        {
+          "offset": 1.634625,
+          "duration": 0.180291,
+          "text": "see"
+        },
+        {
+          "offset": 1.826916,
+          "duration": 0.48075,
+          "text": "schools"
+        },
+        {
+          "offset": 2.33175,
+          "duration": 0.528833,
+          "text": "parks"
+        },
+        {
+          "offset": 3.076916,
+          "duration": 0.408666,
+          "text": "rising"
+        },
+        {
+          "offset": 3.497583,
+          "duration": 0.348541,
+          "text": "property"
+        },
+        {
+          "offset": 3.858166,
+          "duration": 0.46875,
+          "text": "value"
+        },
+        {
+          "offset": 4.591333,
+          "duration": 0.228375,
+          "text": "and"
+        },
+        {
+          "offset": 4.83175,
+          "duration": 0.3245,
+          "text": "clear"
+        },
+        {
+          "offset": 5.16825,
+          "duration": 0.528833,
+          "text": "installment"
+        },
+        {
+          "offset": 5.709125,
+          "duration": 0.360583,
+          "text": "terms"
+        },
+        {
+          "offset": 6.08175,
+          "duration": 0.264416,
+          "text": "right"
+        },
+        {
+          "offset": 6.358166,
+          "duration": 0.132208,
+          "text": "on"
+        },
+        {
+          "offset": 6.502416,
+          "duration": 0.492791,
+          "text": "screen"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.288458,
+          "text": "For"
+        },
+        {
+          "offset": 0.384625,
+          "duration": 0.685083,
+          "text": "e-commerce"
+        },
+        {
+          "offset": 1.08175,
+          "duration": 0.853375,
+          "text": "marketplaces"
+        },
+        {
+          "offset": 1.959125,
+          "duration": 0.204333,
+          "text": "and"
+        },
+        {
+          "offset": 2.1755,
+          "duration": 0.492791,
+          "text": "automotive"
+        },
+        {
+          "offset": 2.680291,
+          "duration": 0.46875,
+          "text": "brands"
+        },
+        {
+          "offset": 3.557708,
+          "duration": 0.48075,
+          "text": "dynamic"
+        },
+        {
+          "offset": 4.0505,
+          "duration": 0.396625,
+          "text": "3D"
+        },
+        {
+          "offset": 4.459125,
+          "duration": 0.528833,
+          "text": "breakdowns"
+        },
+        {
+          "offset": 5.0,
+          "duration": 0.45675,
+          "text": "spotlight"
+        },
+        {
+          "offset": 5.46875,
+          "duration": 0.180291,
+          "text": "key"
+        },
+        {
+          "offset": 5.661041,
+          "duration": 0.48075,
+          "text": "features"
+        },
+        {
+          "offset": 6.153833,
+          "duration": 0.180291,
+          "text": "and"
+        },
+        {
+          "offset": 6.346166,
+          "duration": 0.204333,
+          "text": "real"
+        },
+        {
+          "offset": 6.5625,
+          "duration": 0.408666,
+          "text": "value"
+        },
+        {
+          "offset": 6.983166,
+          "duration": 0.132208,
+          "text": "in"
+        },
+        {
+          "offset": 7.127416,
+          "duration": 0.552875,
+          "text": "seconds"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.396625,
+          "text": "Viewers"
+        },
+        {
+          "offset": 0.492791,
+          "duration": 0.3125,
+          "text": "watch"
+        },
+        {
+          "offset": 0.817291,
+          "duration": 0.192291,
+          "text": "all"
+        },
+        {
+          "offset": 1.021625,
+          "duration": 0.072125,
+          "text": "the"
+        },
+        {
+          "offset": 1.10575,
+          "duration": 0.216333,
+          "text": "way"
+        },
+        {
+          "offset": 1.334125,
+          "duration": 0.432708,
+          "text": "through"
+        },
+        {
+          "offset": 1.971166,
+          "duration": 0.48075,
+          "text": "click-through"
+        },
+        {
+          "offset": 2.463958,
+          "duration": 0.252416,
+          "text": "rates"
+        },
+        {
+          "offset": 2.728375,
+          "duration": 0.276458,
+          "text": "climb"
+        },
+        {
+          "offset": 3.016833,
+          "duration": 0.564916,
+          "text": "sharply"
+        },
+        {
+          "offset": 3.882208,
+          "duration": 0.180291,
+          "text": "and"
+        },
+        {
+          "offset": 4.0745,
+          "duration": 0.120208,
+          "text": "your"
+        },
+        {
+          "offset": 4.20675,
+          "duration": 0.372583,
+          "text": "cost"
+        },
+        {
+          "offset": 4.591333,
+          "duration": 0.14425,
+          "text": "per"
+        },
+        {
+          "offset": 4.747583,
+          "duration": 0.192291,
+          "text": "lead"
+        },
+        {
+          "offset": 4.951916,
+          "duration": 0.336541,
+          "text": "drops"
+        },
+        {
+          "offset": 5.3005,
+          "duration": 0.76925,
+          "text": "significantly"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.15625,
+          "text": "For"
+        },
+        {
+          "offset": 0.252416,
+          "duration": 0.528833,
+          "text": "founders"
+        },
+        {
+          "offset": 0.79325,
+          "duration": 0.348541,
+          "text": "SaaS"
+        },
+        {
+          "offset": 1.153833,
+          "duration": 0.408666,
+          "text": "brands"
+        },
+        {
+          "offset": 1.586541,
+          "duration": 0.180291,
+          "text": "and"
+        },
+        {
+          "offset": 1.778833,
+          "duration": 0.649041,
+          "text": "experts"
+        },
+        {
+          "offset": 2.716333,
+          "duration": 0.504791,
+          "text": "editorial"
+        },
+        {
+          "offset": 3.233166,
+          "duration": 0.552875,
+          "text": "Vox-style"
+        },
+        {
+          "offset": 3.798083,
+          "duration": 0.3245,
+          "text": "motion"
+        },
+        {
+          "offset": 4.134625,
+          "duration": 0.444708,
+          "text": "graphics"
+        },
+        {
+          "offset": 4.591333,
+          "duration": 0.252416,
+          "text": "build"
+        },
+        {
+          "offset": 4.85575,
+          "duration": 0.372583,
+          "text": "instant"
+        },
+        {
+          "offset": 5.240375,
+          "duration": 0.552875,
+          "text": "authority"
+        },
+        {
+          "offset": 5.805291,
+          "duration": 0.15625,
+          "text": "and"
+        },
+        {
+          "offset": 5.973541,
+          "duration": 0.3005,
+          "text": "warm"
+        },
+        {
+          "offset": 6.286041,
+          "duration": 0.45675,
+          "text": "inbound"
+        },
+        {
+          "offset": 6.754791,
+          "duration": 0.396625,
+          "text": "leads"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.228375,
+          "text": "Even"
+        },
+        {
+          "offset": 0.3245,
+          "duration": 0.3245,
+          "text": "better"
+        },
+        {
+          "offset": 1.225958,
+          "duration": 0.192291,
+          "text": "one"
+        },
+        {
+          "offset": 1.430291,
+          "duration": 0.360583,
+          "text": "master"
+        },
+        {
+          "offset": 1.802875,
+          "duration": 0.408666,
+          "text": "production"
+        },
+        {
+          "offset": 2.223541,
+          "duration": 0.384625,
+          "text": "scales"
+        },
+        {
+          "offset": 2.620208,
+          "duration": 0.600958,
+          "text": "seamlessly"
+        },
+        {
+          "offset": 3.233166,
+          "duration": 0.192291,
+          "text": "into"
+        },
+        {
+          "offset": 3.4375,
+          "duration": 0.48075,
+          "text": "Kazakh"
+        },
+        {
+          "offset": 4.459125,
+          "duration": 0.45675,
+          "text": "Russian"
+        },
+        {
+          "offset": 4.939916,
+          "duration": 0.120208,
+          "text": "and"
+        },
+        {
+          "offset": 5.132208,
+          "duration": 0.348541,
+          "text": "English"
+        },
+        {
+          "offset": 5.492791,
+          "duration": 0.336541,
+          "text": "across"
+        },
+        {
+          "offset": 5.841333,
+          "duration": 0.432708,
+          "text": "local"
+        },
+        {
+          "offset": 6.778833,
+          "duration": 0.661041,
+          "text": "CIS"
+        },
+        {
+          "offset": 7.8125,
+          "duration": 0.120208,
+          "text": "and"
+        },
+        {
+          "offset": 7.944708,
+          "duration": 0.360583,
+          "text": "global"
+        },
+        {
+          "offset": 8.317291,
+          "duration": 0.516833,
+          "text": "markets"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.096166,
+          "text": "We"
+        },
+        {
+          "offset": 0.192291,
+          "duration": 0.252416,
+          "text": "handle"
+        },
+        {
+          "offset": 0.45675,
+          "duration": 0.084125,
+          "text": "the"
+        },
+        {
+          "offset": 0.552875,
+          "duration": 0.192291,
+          "text": "full"
+        },
+        {
+          "offset": 0.757208,
+          "duration": 0.516833,
+          "text": "pipeline"
+        },
+        {
+          "offset": 1.947125,
+          "duration": 0.45675,
+          "text": "script"
+        },
+        {
+          "offset": 2.776458,
+          "duration": 0.336499,
+          "text": "3D"
+        },
+        {
+          "offset": 3.125,
+          "duration": 0.45675,
+          "text": "maps"
+        },
+        {
+          "offset": 3.978375,
+          "duration": 0.228375,
+          "text": "data"
+        },
+        {
+          "offset": 4.21875,
+          "duration": 0.48075,
+          "text": "visuals"
+        },
+        {
+          "offset": 5.120208,
+          "duration": 0.396625,
+          "text": "studio"
+        },
+        {
+          "offset": 5.528833,
+          "duration": 0.625,
+          "text": "voiceover"
+        },
+        {
+          "offset": 6.682708,
+          "duration": 0.096166,
+          "text": "and"
+        },
+        {
+          "offset": 6.790875,
+          "duration": 0.3005,
+          "text": "crisp"
+        },
+        {
+          "offset": 7.103375,
+          "duration": 0.264416,
+          "text": "sound"
+        },
+        {
+          "offset": 7.379791,
+          "duration": 0.396625,
+          "text": "design"
+        },
+        {
+          "offset": 7.788458,
+          "duration": 0.216333,
+          "text": "ready"
+        },
+        {
+          "offset": 8.016833,
+          "duration": 0.192291,
+          "text": "for"
+        },
+        {
+          "offset": 8.221166,
+          "duration": 0.420666,
+          "text": "Reels"
+        },
+        {
+          "offset": 9.026458,
+          "duration": 0.48075,
+          "text": "Shorts"
+        },
+        {
+          "offset": 9.51925,
+          "duration": 0.15625,
+          "text": "and"
+        },
+        {
+          "offset": 9.6875,
+          "duration": 0.540875,
+          "text": "TikTok"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.096166,
+          "duration": 0.276458,
+          "text": "Want"
+        },
+        {
+          "offset": 0.384625,
+          "duration": 0.709125,
+          "text": "high-converting"
+        },
+        {
+          "offset": 1.10575,
+          "duration": 0.372583,
+          "text": "motion"
+        },
+        {
+          "offset": 1.490375,
+          "duration": 0.516833,
+          "text": "videos"
+        },
+        {
+          "offset": 2.01925,
+          "duration": 0.15625,
+          "text": "for"
+        },
+        {
+          "offset": 2.1875,
+          "duration": 0.132208,
+          "text": "your"
+        },
+        {
+          "offset": 2.33175,
+          "duration": 0.576916,
+          "text": "business"
+        },
+        {
+          "offset": 3.28125,
+          "duration": 0.252416,
+          "text": "DM"
+        },
+        {
+          "offset": 3.545666,
+          "duration": 0.084125,
+          "text": "the"
+        },
+        {
+          "offset": 3.641833,
+          "duration": 0.288458,
+          "text": "word"
+        },
+        {
+          "offset": 3.942291,
+          "duration": 0.564916,
+          "text": "VIDEO"
+        },
+        {
+          "offset": 4.651458,
+          "duration": 0.216333,
+          "text": "right"
+        },
+        {
+          "offset": 4.879791,
+          "duration": 0.384625,
+          "text": "now"
+        },
+        {
+          "offset": 5.661041,
+          "duration": 0.46875,
+          "text": "otherwise"
+        },
+        {
+          "offset": 6.141833,
+          "duration": 0.084125,
+          "text": "you"
+        },
+        {
+          "offset": 6.238,
+          "duration": 0.120208,
+          "text": "will"
+        },
+        {
+          "offset": 6.370208,
+          "duration": 0.240375,
+          "text": "keep"
+        },
+        {
+          "offset": 6.622583,
+          "duration": 0.600958,
+          "text": "wondering"
+        }
+      ]
+    }
+  ]
+}
