@@ -1,0 +1,916 @@
+{
+  "hash": "033099bbfe50463ca04ad0f7d34ceabadf7c39886a42dc7bd2b552ebe7b53578",
+  "voice": "en-US-BrianMultilingualNeural",
+  "items": [
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.228375,
+          "text": "Как"
+        },
+        {
+          "offset": 0.3245,
+          "duration": 0.240375,
+          "text": "два"
+        },
+        {
+          "offset": 0.576916,
+          "duration": 0.48075,
+          "text": "миллиметра"
+        },
+        {
+          "offset": 1.069708,
+          "duration": 0.48075,
+          "text": "пустоты"
+        },
+        {
+          "offset": 1.5625,
+          "duration": 0.372583,
+          "text": "внутри"
+        },
+        {
+          "offset": 1.947125,
+          "duration": 0.432708,
+          "text": "стального"
+        },
+        {
+          "offset": 2.391833,
+          "duration": 0.540875,
+          "text": "термоса"
+        },
+        {
+          "offset": 2.944708,
+          "duration": 0.384625,
+          "text": "держат"
+        },
+        {
+          "offset": 3.341333,
+          "duration": 0.444708,
+          "text": "кипяток"
+        },
+        {
+          "offset": 3.798083,
+          "duration": 0.396625,
+          "text": "целые"
+        },
+        {
+          "offset": 4.20675,
+          "duration": 0.45675,
+          "text": "сутки"
+        },
+        {
+          "offset": 4.6755,
+          "duration": 0.288458,
+          "text": "даже"
+        },
+        {
+          "offset": 4.975958,
+          "duration": 0.048083,
+          "text": "в"
+        },
+        {
+          "offset": 5.036041,
+          "duration": 1.165875,
+          "text": "тридцатипятиградусный"
+        },
+        {
+          "offset": 6.213958,
+          "duration": 0.528833,
+          "text": "мороз"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.384625,
+          "text": "Если"
+        },
+        {
+          "offset": 0.48075,
+          "duration": 0.45675,
+          "text": "заглянуть"
+        },
+        {
+          "offset": 0.9495,
+          "duration": 0.048083,
+          "text": "в"
+        },
+        {
+          "offset": 1.009625,
+          "duration": 0.661041,
+          "text": "тепловизор"
+        },
+        {
+          "offset": 2.007208,
+          "duration": 0.444708,
+          "text": "дешёвая"
+        },
+        {
+          "offset": 2.463958,
+          "duration": 0.348541,
+          "text": "колба"
+        },
+        {
+          "offset": 2.8245,
+          "duration": 0.492791,
+          "text": "светится"
+        },
+        {
+          "offset": 3.329333,
+          "duration": 0.45675,
+          "text": "красным"
+        },
+        {
+          "offset": 3.798083,
+          "duration": 0.564916,
+          "text": "снаружи"
+        },
+        {
+          "offset": 4.375,
+          "duration": 0.132208,
+          "text": "и"
+        },
+        {
+          "offset": 4.51925,
+          "duration": 0.372583,
+          "text": "быстро"
+        },
+        {
+          "offset": 4.903833,
+          "duration": 0.588958,
+          "text": "остывает"
+        },
+        {
+          "offset": 6.033666,
+          "duration": 0.084125,
+          "text": "а"
+        },
+        {
+          "offset": 6.129791,
+          "duration": 0.600958,
+          "text": "качественный"
+        },
+        {
+          "offset": 6.742791,
+          "duration": 0.540875,
+          "text": "вакуумный"
+        },
+        {
+          "offset": 7.295666,
+          "duration": 0.492791,
+          "text": "корпус"
+        },
+        {
+          "offset": 7.8005,
+          "duration": 0.600958,
+          "text": "остаётся"
+        },
+        {
+          "offset": 8.413458,
+          "duration": 0.588958,
+          "text": "ледяным"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.336541,
+          "text": "Весь"
+        },
+        {
+          "offset": 0.432708,
+          "duration": 0.396625,
+          "text": "секрет"
+        },
+        {
+          "offset": 0.841333,
+          "duration": 0.46875,
+          "text": "спрятан"
+        },
+        {
+          "offset": 1.322125,
+          "duration": 0.0360409,
+          "text": "в"
+        },
+        {
+          "offset": 1.370208,
+          "duration": 0.504791,
+          "text": "четырёх"
+        },
+        {
+          "offset": 1.887,
+          "duration": 0.613,
+          "text": "инженерных"
+        },
+        {
+          "offset": 2.512,
+          "duration": 0.516833,
+          "text": "слоях"
+        },
+        {
+          "offset": 3.4255,
+          "duration": 0.45675,
+          "text": "давайте"
+        },
+        {
+          "offset": 3.89425,
+          "duration": 0.46875,
+          "text": "разберём"
+        },
+        {
+          "offset": 4.375,
+          "duration": 0.516833,
+          "text": "каждый"
+        },
+        {
+          "offset": 4.903833,
+          "duration": 0.192291,
+          "text": "из"
+        },
+        {
+          "offset": 5.108166,
+          "duration": 0.264416,
+          "text": "них"
+        },
+        {
+          "offset": 5.384625,
+          "duration": 0.0360409,
+          "text": "в"
+        },
+        {
+          "offset": 5.432708,
+          "duration": 0.673083,
+          "text": "разрезе"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.348541,
+          "text": "Первый"
+        },
+        {
+          "offset": 0.444708,
+          "duration": 0.420666,
+          "text": "слой"
+        },
+        {
+          "offset": 1.238,
+          "duration": 0.492791,
+          "text": "двойная"
+        },
+        {
+          "offset": 1.742791,
+          "duration": 0.552875,
+          "text": "пищевая"
+        },
+        {
+          "offset": 2.307708,
+          "duration": 0.396625,
+          "text": "сталь"
+        },
+        {
+          "offset": 2.716333,
+          "duration": 0.420666,
+          "text": "триста"
+        },
+        {
+          "offset": 3.149041,
+          "duration": 0.600958,
+          "text": "четыре"
+        },
+        {
+          "offset": 4.134625,
+          "duration": 0.396625,
+          "text": "Хром"
+        },
+        {
+          "offset": 4.54325,
+          "duration": 0.132208,
+          "text": "и"
+        },
+        {
+          "offset": 4.6875,
+          "duration": 0.348541,
+          "text": "никель"
+        },
+        {
+          "offset": 5.048083,
+          "duration": 0.048083,
+          "text": "в"
+        },
+        {
+          "offset": 5.108166,
+          "duration": 0.420666,
+          "text": "сплаве"
+        },
+        {
+          "offset": 5.540875,
+          "duration": 0.613,
+          "text": "защищают"
+        },
+        {
+          "offset": 6.165875,
+          "duration": 0.492791,
+          "text": "стенки"
+        },
+        {
+          "offset": 6.670666,
+          "duration": 0.14425,
+          "text": "от"
+        },
+        {
+          "offset": 6.826916,
+          "duration": 0.685083,
+          "text": "ржавчины"
+        },
+        {
+          "offset": 7.524041,
+          "duration": 0.132208,
+          "text": "и"
+        },
+        {
+          "offset": 7.66825,
+          "duration": 0.504791,
+          "text": "запахов"
+        },
+        {
+          "offset": 8.185083,
+          "duration": 0.588958,
+          "text": "годами"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.408666,
+          "text": "Второй"
+        },
+        {
+          "offset": 0.504791,
+          "duration": 0.432708,
+          "text": "слой"
+        },
+        {
+          "offset": 1.262,
+          "duration": 0.516833,
+          "text": "глубокий"
+        },
+        {
+          "offset": 1.790875,
+          "duration": 0.48075,
+          "text": "вакуум"
+        },
+        {
+          "offset": 2.283666,
+          "duration": 0.348541,
+          "text": "между"
+        },
+        {
+          "offset": 2.64425,
+          "duration": 0.673083,
+          "text": "колбами"
+        },
+        {
+          "offset": 3.701916,
+          "duration": 0.3245,
+          "text": "Когда"
+        },
+        {
+          "offset": 4.038458,
+          "duration": 0.420666,
+          "text": "воздух"
+        },
+        {
+          "offset": 4.471166,
+          "duration": 0.540875,
+          "text": "полностью"
+        },
+        {
+          "offset": 5.024041,
+          "duration": 0.576916,
+          "text": "откачан"
+        },
+        {
+          "offset": 6.08175,
+          "duration": 0.540875,
+          "text": "молекулам"
+        },
+        {
+          "offset": 6.634625,
+          "duration": 0.372583,
+          "text": "просто"
+        },
+        {
+          "offset": 7.01925,
+          "duration": 0.408666,
+          "text": "нечем"
+        },
+        {
+          "offset": 7.439916,
+          "duration": 0.600958,
+          "text": "передавать"
+        },
+        {
+          "offset": 8.052875,
+          "duration": 0.396625,
+          "text": "тепло"
+        },
+        {
+          "offset": 8.461541,
+          "duration": 0.613,
+          "text": "наружу"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.16825,
+          "text": "Но"
+        },
+        {
+          "offset": 0.264416,
+          "duration": 0.3245,
+          "text": "тепло"
+        },
+        {
+          "offset": 0.600958,
+          "duration": 0.204333,
+          "text": "всё"
+        },
+        {
+          "offset": 0.817291,
+          "duration": 0.3125,
+          "text": "равно"
+        },
+        {
+          "offset": 1.141833,
+          "duration": 0.420666,
+          "text": "уходит"
+        },
+        {
+          "offset": 1.5745,
+          "duration": 0.540875,
+          "text": "лучами"
+        },
+        {
+          "offset": 2.524041,
+          "duration": 0.408666,
+          "text": "поэтому"
+        },
+        {
+          "offset": 2.944708,
+          "duration": 0.348541,
+          "text": "третий"
+        },
+        {
+          "offset": 3.305291,
+          "duration": 0.396625,
+          "text": "слой"
+        },
+        {
+          "offset": 4.026458,
+          "duration": 0.649041,
+          "text": "тончайшее"
+        },
+        {
+          "offset": 4.6875,
+          "duration": 0.360583,
+          "text": "медное"
+        },
+        {
+          "offset": 5.060083,
+          "duration": 0.637,
+          "text": "напыление"
+        },
+        {
+          "offset": 6.069708,
+          "duration": 0.372583,
+          "text": "которое"
+        },
+        {
+          "offset": 6.454333,
+          "duration": 0.16825,
+          "text": "как"
+        },
+        {
+          "offset": 6.634625,
+          "duration": 0.492791,
+          "text": "зеркало"
+        },
+        {
+          "offset": 7.139416,
+          "duration": 0.613,
+          "text": "отражает"
+        },
+        {
+          "offset": 7.764416,
+          "duration": 0.384625,
+          "text": "тепло"
+        },
+        {
+          "offset": 8.161041,
+          "duration": 0.588958,
+          "text": "обратно"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.096166,
+          "duration": 0.096166,
+          "text": "И"
+        },
+        {
+          "offset": 0.204333,
+          "duration": 0.564916,
+          "text": "четвёртый"
+        },
+        {
+          "offset": 0.78125,
+          "duration": 0.46875,
+          "text": "барьер"
+        },
+        {
+          "offset": 1.610583,
+          "duration": 0.540875,
+          "text": "глубокая"
+        },
+        {
+          "offset": 2.163458,
+          "duration": 0.408666,
+          "text": "пробка"
+        },
+        {
+          "offset": 2.584125,
+          "duration": 0.084125,
+          "text": "с"
+        },
+        {
+          "offset": 2.680291,
+          "duration": 0.516833,
+          "text": "двойными"
+        },
+        {
+          "offset": 3.209125,
+          "duration": 0.76925,
+          "text": "силиконовыми"
+        },
+        {
+          "offset": 3.990375,
+          "duration": 0.709125,
+          "text": "кольцами"
+        },
+        {
+          "offset": 5.096166,
+          "duration": 0.264416,
+          "text": "Она"
+        },
+        {
+          "offset": 5.372583,
+          "duration": 0.540875,
+          "text": "намертво"
+        },
+        {
+          "offset": 5.9255,
+          "duration": 0.552875,
+          "text": "запирает"
+        },
+        {
+          "offset": 6.490375,
+          "duration": 0.396625,
+          "text": "выход"
+        },
+        {
+          "offset": 6.899041,
+          "duration": 0.336541,
+          "text": "пара"
+        },
+        {
+          "offset": 7.247583,
+          "duration": 0.360583,
+          "text": "через"
+        },
+        {
+          "offset": 7.620208,
+          "duration": 0.745208,
+          "text": "горловину"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.072125,
+          "text": "В"
+        },
+        {
+          "offset": 0.16825,
+          "duration": 0.588958,
+          "text": "результате"
+        },
+        {
+          "offset": 0.76925,
+          "duration": 0.360583,
+          "text": "вместо"
+        },
+        {
+          "offset": 1.141833,
+          "duration": 0.360583,
+          "text": "ледяной"
+        },
+        {
+          "offset": 1.514416,
+          "duration": 0.3125,
+          "text": "воды"
+        },
+        {
+          "offset": 1.838958,
+          "duration": 0.3125,
+          "text": "через"
+        },
+        {
+          "offset": 2.163458,
+          "duration": 0.204333,
+          "text": "три"
+        },
+        {
+          "offset": 2.379791,
+          "duration": 0.348541,
+          "text": "часа"
+        },
+        {
+          "offset": 2.740375,
+          "duration": 0.613,
+          "text": "качественный"
+        },
+        {
+          "offset": 3.365375,
+          "duration": 0.48075,
+          "text": "термос"
+        },
+        {
+          "offset": 3.858166,
+          "duration": 0.600958,
+          "text": "сохраняет"
+        },
+        {
+          "offset": 4.471166,
+          "duration": 0.384625,
+          "text": "почти"
+        },
+        {
+          "offset": 4.867791,
+          "duration": 0.600958,
+          "text": "восемьдесят"
+        },
+        {
+          "offset": 5.48075,
+          "duration": 0.588958,
+          "text": "градусов"
+        },
+        {
+          "offset": 6.08175,
+          "duration": 0.360583,
+          "text": "даже"
+        },
+        {
+          "offset": 6.454333,
+          "duration": 0.3125,
+          "text": "через"
+        },
+        {
+          "offset": 6.778833,
+          "duration": 0.528833,
+          "text": "сутки"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.072125,
+          "duration": 0.649041,
+          "text": "Запомните"
+        },
+        {
+          "offset": 0.733166,
+          "duration": 0.240375,
+          "text": "три"
+        },
+        {
+          "offset": 0.985583,
+          "duration": 0.396625,
+          "text": "быстрые"
+        },
+        {
+          "offset": 1.39425,
+          "duration": 0.46875,
+          "text": "проверки"
+        },
+        {
+          "offset": 1.875,
+          "duration": 0.132208,
+          "text": "при"
+        },
+        {
+          "offset": 2.01925,
+          "duration": 0.552875,
+          "text": "покупке"
+        },
+        {
+          "offset": 3.125,
+          "duration": 0.48075,
+          "text": "холодная"
+        },
+        {
+          "offset": 3.617791,
+          "duration": 0.408666,
+          "text": "стенка"
+        },
+        {
+          "offset": 4.038458,
+          "duration": 0.060083,
+          "text": "с"
+        },
+        {
+          "offset": 4.110583,
+          "duration": 0.46875,
+          "text": "кипятком"
+        },
+        {
+          "offset": 4.591333,
+          "duration": 0.46875,
+          "text": "внутри"
+        },
+        {
+          "offset": 5.45675,
+          "duration": 0.336541,
+          "text": "клеймо"
+        },
+        {
+          "offset": 5.805291,
+          "duration": 0.360583,
+          "text": "триста"
+        },
+        {
+          "offset": 6.177875,
+          "duration": 0.348541,
+          "text": "четыре"
+        },
+        {
+          "offset": 6.538458,
+          "duration": 0.108166,
+          "text": "на"
+        },
+        {
+          "offset": 6.658666,
+          "duration": 0.360583,
+          "text": "дне"
+        },
+        {
+          "offset": 7.03125,
+          "duration": 0.132208,
+          "text": "и"
+        },
+        {
+          "offset": 7.1755,
+          "duration": 0.444708,
+          "text": "плотная"
+        },
+        {
+          "offset": 7.632208,
+          "duration": 0.45675,
+          "text": "двойная"
+        },
+        {
+          "offset": 8.100958,
+          "duration": 0.492791,
+          "text": "резьба"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.588958,
+          "text": "Продаёте"
+        },
+        {
+          "offset": 0.685083,
+          "duration": 0.336541,
+          "text": "свой"
+        },
+        {
+          "offset": 1.033666,
+          "duration": 0.516833,
+          "text": "товар"
+        },
+        {
+          "offset": 1.935083,
+          "duration": 0.444708,
+          "text": "Покажем"
+        },
+        {
+          "offset": 2.391833,
+          "duration": 0.264416,
+          "text": "любой"
+        },
+        {
+          "offset": 2.66825,
+          "duration": 0.408666,
+          "text": "продукт"
+        },
+        {
+          "offset": 3.088958,
+          "duration": 0.048083,
+          "text": "в"
+        },
+        {
+          "offset": 3.149041,
+          "duration": 0.3245,
+          "text": "таком"
+        },
+        {
+          "offset": 3.485583,
+          "duration": 0.096166,
+          "text": "же"
+        },
+        {
+          "offset": 3.59375,
+          "duration": 0.528833,
+          "text": "наглядном"
+        },
+        {
+          "offset": 4.134625,
+          "duration": 0.276458,
+          "text": "три-дэ"
+        },
+        {
+          "offset": 4.423083,
+          "duration": 0.576916,
+          "text": "разрезе"
+        },
+        {
+          "offset": 5.45675,
+          "duration": 0.372583,
+          "text": "пишите"
+        },
+        {
+          "offset": 5.841333,
+          "duration": 0.46875,
+          "text": "слово"
+        },
+        {
+          "offset": 6.466333,
+          "duration": 0.552875,
+          "text": "ОБЗОР"
+        },
+        {
+          "offset": 7.34375,
+          "duration": 0.108166,
+          "text": "в"
+        },
+        {
+          "offset": 7.463958,
+          "duration": 0.45675,
+          "text": "Дайрект"
+        },
+        {
+          "offset": 8.233166,
+          "duration": 0.276458,
+          "text": "чтобы"
+        },
+        {
+          "offset": 8.521625,
+          "duration": 0.420666,
+          "text": "клиент"
+        },
+        {
+          "offset": 8.954333,
+          "duration": 0.336541,
+          "text": "сразу"
+        },
+        {
+          "offset": 9.302875,
+          "duration": 0.48075,
+          "text": "понял"
+        }
+      ]
+    }
+  ]
+}

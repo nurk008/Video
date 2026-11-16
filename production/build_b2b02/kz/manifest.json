@@ -1,0 +1,911 @@
+{
+  "hash": "d524a51a84923bcc943c180b8be8b78ece8bab89f9e5b41e3f21d02eb3983301",
+  "voice": "kk-KZ-DauletNeural",
+  "items": [
+    {
+      "bounds": [
+        {
+          "offset": 0.099,
+          "duration": 0.269625,
+          "text": "Болат"
+        },
+        {
+          "offset": 0.368625,
+          "duration": 0.502458,
+          "text": "термостың"
+        },
+        {
+          "offset": 0.871083,
+          "duration": 0.539208,
+          "text": "ішіндегі"
+        },
+        {
+          "offset": 1.410291,
+          "duration": 0.490208,
+          "text": "екі-ақ"
+        },
+        {
+          "offset": 1.91275,
+          "duration": 0.502458,
+          "text": "миллиметр"
+        },
+        {
+          "offset": 2.464208,
+          "duration": 0.294125,
+          "text": "бос"
+        },
+        {
+          "offset": 2.758333,
+          "duration": 0.441166,
+          "text": "кеңістік"
+        },
+        {
+          "offset": 3.224,
+          "duration": 0.379916,
+          "text": "отыз"
+        },
+        {
+          "offset": 3.603916,
+          "duration": 0.245083,
+          "text": "бес"
+        },
+        {
+          "offset": 3.861291,
+          "duration": 0.416666,
+          "text": "градус"
+        },
+        {
+          "offset": 4.277958,
+          "duration": 0.379875,
+          "text": "аязда"
+        },
+        {
+          "offset": 4.657833,
+          "duration": 0.526958,
+          "text": "қайнаған"
+        },
+        {
+          "offset": 5.184791,
+          "duration": 0.379916,
+          "text": "суды"
+        },
+        {
+          "offset": 5.564708,
+          "duration": 0.367625,
+          "text": "тәулік"
+        },
+        {
+          "offset": 5.932333,
+          "duration": 0.281875,
+          "text": "бойы"
+        },
+        {
+          "offset": 6.214208,
+          "duration": 0.367666,
+          "text": "қалай"
+        },
+        {
+          "offset": 6.581875,
+          "duration": 0.526958,
+          "text": "суытпай"
+        },
+        {
+          "offset": 7.108833,
+          "duration": 0.416666,
+          "text": "ұстайды"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.1,
+          "duration": 0.674,
+          "text": "Тепловизормен"
+        },
+        {
+          "offset": 0.774,
+          "duration": 0.404416,
+          "text": "қарасақ"
+        },
+        {
+          "offset": 1.35,
+          "duration": 0.379916,
+          "text": "арзан"
+        },
+        {
+          "offset": 1.729916,
+          "duration": 0.330875,
+          "text": "термос"
+        },
+        {
+          "offset": 2.060791,
+          "duration": 0.441166,
+          "text": "сыртынан"
+        },
+        {
+          "offset": 2.61225,
+          "duration": 0.416666,
+          "text": "қып-қызыл"
+        },
+        {
+          "offset": 3.041166,
+          "duration": 0.196083,
+          "text": "болып"
+        },
+        {
+          "offset": 3.26175,
+          "duration": 0.441166,
+          "text": "жылуын"
+        },
+        {
+          "offset": 3.715208,
+          "duration": 0.196083,
+          "text": "тез"
+        },
+        {
+          "offset": 3.911291,
+          "duration": 0.58825,
+          "text": "жоғалтады"
+        },
+        {
+          "offset": 4.609791,
+          "duration": 0.208333,
+          "text": "ал"
+        },
+        {
+          "offset": 4.818125,
+          "duration": 0.392166,
+          "text": "нағыз"
+        },
+        {
+          "offset": 5.210291,
+          "duration": 0.490208,
+          "text": "вакуумды"
+        },
+        {
+          "offset": 5.76175,
+          "duration": 0.343125,
+          "text": "корпус"
+        },
+        {
+          "offset": 6.104916,
+          "duration": 0.404416,
+          "text": "салқын"
+        },
+        {
+          "offset": 6.521583,
+          "duration": 0.318625,
+          "text": "күйінде"
+        },
+        {
+          "offset": 6.840208,
+          "duration": 0.367666,
+          "text": "қалады"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.099,
+          "duration": 0.257333,
+          "text": "Бүкіл"
+        },
+        {
+          "offset": 0.368625,
+          "duration": 0.355375,
+          "text": "құпия"
+        },
+        {
+          "offset": 0.760791,
+          "duration": 0.281875,
+          "text": "төрт"
+        },
+        {
+          "offset": 1.042666,
+          "duration": 0.612708,
+          "text": "инженерлік"
+        },
+        {
+          "offset": 1.655375,
+          "duration": 0.441166,
+          "text": "қабатта"
+        },
+        {
+          "offset": 2.096583,
+          "duration": 0.330875,
+          "text": "жатыр"
+        },
+        {
+          "offset": 2.51325,
+          "duration": 0.502458,
+          "text": "қазір"
+        },
+        {
+          "offset": 3.027958,
+          "duration": 0.625,
+          "text": "әрқайсысын"
+        },
+        {
+          "offset": 3.677458,
+          "duration": 0.514708,
+          "text": "бөлшектеп"
+        },
+        {
+          "offset": 4.192166,
+          "duration": 0.404416,
+          "text": "көрейік"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.111291,
+          "duration": 0.330875,
+          "text": "Бірінші"
+        },
+        {
+          "offset": 0.454416,
+          "duration": 0.367666,
+          "text": "қабат"
+        },
+        {
+          "offset": 1.005875,
+          "duration": 0.147041,
+          "text": "үш"
+        },
+        {
+          "offset": 1.152958,
+          "duration": 0.171583,
+          "text": "жүз"
+        },
+        {
+          "offset": 1.33675,
+          "duration": 0.428916,
+          "text": "төртінші"
+        },
+        {
+          "offset": 1.777958,
+          "duration": 0.465666,
+          "text": "тағамдық"
+        },
+        {
+          "offset": 2.255875,
+          "duration": 0.306375,
+          "text": "болат"
+        },
+        {
+          "offset": 3.443625,
+          "duration": 0.6005,
+          "text": "Құрамындағы"
+        },
+        {
+          "offset": 4.044125,
+          "duration": 0.379875,
+          "text": "хром"
+        },
+        {
+          "offset": 4.424,
+          "duration": 0.183833,
+          "text": "мен"
+        },
+        {
+          "offset": 4.607833,
+          "duration": 0.355375,
+          "text": "никель"
+        },
+        {
+          "offset": 4.9755,
+          "duration": 0.526958,
+          "text": "қабырғаны"
+        },
+        {
+          "offset": 5.502458,
+          "duration": 0.245083,
+          "text": "тот"
+        },
+        {
+          "offset": 5.796583,
+          "duration": 0.134791,
+          "text": "пен"
+        },
+        {
+          "offset": 5.931375,
+          "duration": 0.392166,
+          "text": "бөгде"
+        },
+        {
+          "offset": 6.348041,
+          "duration": 0.441166,
+          "text": "иістен"
+        },
+        {
+          "offset": 6.789208,
+          "duration": 0.355375,
+          "text": "жылдар"
+        },
+        {
+          "offset": 7.144625,
+          "duration": 0.257333,
+          "text": "бойы"
+        },
+        {
+          "offset": 7.401958,
+          "duration": 0.576,
+          "text": "қорғайды"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.135791,
+          "duration": 0.269625,
+          "text": "Екінші"
+        },
+        {
+          "offset": 0.442166,
+          "duration": 0.355375,
+          "text": "қабат"
+        },
+        {
+          "offset": 0.846583,
+          "duration": 0.196083,
+          "text": "қос"
+        },
+        {
+          "offset": 1.067166,
+          "duration": 0.343125,
+          "text": "қабырға"
+        },
+        {
+          "offset": 1.410291,
+          "duration": 0.526958,
+          "text": "арасындағы"
+        },
+        {
+          "offset": 1.96175,
+          "duration": 0.355375,
+          "text": "терең"
+        },
+        {
+          "offset": 2.317166,
+          "duration": 0.514708,
+          "text": "вакуум"
+        },
+        {
+          "offset": 3.7745,
+          "duration": 0.269625,
+          "text": "Ауа"
+        },
+        {
+          "offset": 4.056375,
+          "duration": 0.306375,
+          "text": "толық"
+        },
+        {
+          "offset": 4.36275,
+          "duration": 0.759791,
+          "text": "сорылғандықтан"
+        },
+        {
+          "offset": 5.367666,
+          "duration": 0.428916,
+          "text": "жылуды"
+        },
+        {
+          "offset": 5.796583,
+          "duration": 0.367666,
+          "text": "сыртқа"
+        },
+        {
+          "offset": 6.176458,
+          "duration": 0.441166,
+          "text": "таситын"
+        },
+        {
+          "offset": 6.642166,
+          "duration": 0.465666,
+          "text": "молекула"
+        },
+        {
+          "offset": 7.120083,
+          "duration": 0.539208,
+          "text": "қалмайды"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.11175,
+          "duration": 0.220583,
+          "text": "Бірақ"
+        },
+        {
+          "offset": 0.344625,
+          "duration": 0.257333,
+          "text": "жылу"
+        },
+        {
+          "offset": 0.614208,
+          "duration": 0.465666,
+          "text": "сәулемен"
+        },
+        {
+          "offset": 1.092166,
+          "duration": 0.110291,
+          "text": "де"
+        },
+        {
+          "offset": 1.226958,
+          "duration": 0.465666,
+          "text": "тарайды"
+        },
+        {
+          "offset": 1.741666,
+          "duration": 0.490208,
+          "text": "сондықтан"
+        },
+        {
+          "offset": 2.256375,
+          "duration": 0.343125,
+          "text": "үшінші"
+        },
+        {
+          "offset": 2.5995,
+          "duration": 0.379916,
+          "text": "қабат"
+        },
+        {
+          "offset": 3.114208,
+          "duration": 0.306375,
+          "text": "айна"
+        },
+        {
+          "offset": 3.420583,
+          "duration": 0.379916,
+          "text": "сияқты"
+        },
+        {
+          "offset": 3.825,
+          "duration": 0.576,
+          "text": "инфрақызыл"
+        },
+        {
+          "offset": 4.401,
+          "duration": 0.453416,
+          "text": "сәулені"
+        },
+        {
+          "offset": 4.854416,
+          "duration": 0.257333,
+          "text": "ішке"
+        },
+        {
+          "offset": 5.124,
+          "duration": 0.58825,
+          "text": "қайтаратын"
+        },
+        {
+          "offset": 5.7245,
+          "duration": 0.318625,
+          "text": "жұқа"
+        },
+        {
+          "offset": 6.043125,
+          "duration": 0.171583,
+          "text": "мыс"
+        },
+        {
+          "offset": 6.214708,
+          "duration": 0.428916,
+          "text": "жабыны"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.099,
+          "duration": 0.416666,
+          "text": "Төртінші"
+        },
+        {
+          "offset": 0.527958,
+          "duration": 0.514708,
+          "text": "тосқауыл"
+        },
+        {
+          "offset": 1.103916,
+          "duration": 0.294125,
+          "text": "қос"
+        },
+        {
+          "offset": 1.398041,
+          "duration": 0.392166,
+          "text": "силикон"
+        },
+        {
+          "offset": 1.790208,
+          "duration": 0.514708,
+          "text": "сақиналы"
+        },
+        {
+          "offset": 2.329416,
+          "duration": 0.318625,
+          "text": "терең"
+        },
+        {
+          "offset": 2.648041,
+          "duration": 0.453416,
+          "text": "қақпақ"
+        },
+        {
+          "offset": 3.958333,
+          "duration": 0.196083,
+          "text": "Ол"
+        },
+        {
+          "offset": 4.154416,
+          "duration": 0.196083,
+          "text": "бу"
+        },
+        {
+          "offset": 4.41175,
+          "duration": 0.183833,
+          "text": "мен"
+        },
+        {
+          "offset": 4.595583,
+          "duration": 0.428916,
+          "text": "қызудың"
+        },
+        {
+          "offset": 5.0245,
+          "duration": 0.330875,
+          "text": "мойын"
+        },
+        {
+          "offset": 5.355375,
+          "duration": 0.355375,
+          "text": "арқылы"
+        },
+        {
+          "offset": 5.710791,
+          "duration": 0.379916,
+          "text": "сыртқа"
+        },
+        {
+          "offset": 6.102958,
+          "duration": 0.465666,
+          "text": "шығуын"
+        },
+        {
+          "offset": 6.580875,
+          "duration": 0.306375,
+          "text": "мүлде"
+        },
+        {
+          "offset": 6.91175,
+          "duration": 0.63725,
+          "text": "бұғаттайды"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.123541,
+          "duration": 0.625,
+          "text": "Нәтижесінде"
+        },
+        {
+          "offset": 0.834333,
+          "duration": 0.159291,
+          "text": "үш"
+        },
+        {
+          "offset": 0.993625,
+          "duration": 0.416666,
+          "text": "сағатта"
+        },
+        {
+          "offset": 1.422541,
+          "duration": 0.367666,
+          "text": "мұздап"
+        },
+        {
+          "offset": 1.802458,
+          "duration": 0.428916,
+          "text": "қалудың"
+        },
+        {
+          "offset": 2.231375,
+          "duration": 0.392166,
+          "text": "орнына"
+        },
+        {
+          "offset": 2.819625,
+          "duration": 0.441166,
+          "text": "сапалы"
+        },
+        {
+          "offset": 3.273041,
+          "duration": 0.477958,
+          "text": "термос"
+        },
+        {
+          "offset": 3.983833,
+          "duration": 0.367666,
+          "text": "жиырма"
+        },
+        {
+          "offset": 4.376,
+          "duration": 0.208333,
+          "text": "төрт"
+        },
+        {
+          "offset": 4.584333,
+          "duration": 0.416666,
+          "text": "сағаттан"
+        },
+        {
+          "offset": 5.001,
+          "duration": 0.220583,
+          "text": "соң"
+        },
+        {
+          "offset": 5.246083,
+          "duration": 0.134791,
+          "text": "да"
+        },
+        {
+          "offset": 5.6505,
+          "duration": 0.416666,
+          "text": "сексен"
+        },
+        {
+          "offset": 6.079416,
+          "duration": 0.514708,
+          "text": "градусқа"
+        },
+        {
+          "offset": 6.630875,
+          "duration": 0.330875,
+          "text": "жуық"
+        },
+        {
+          "offset": 6.96175,
+          "duration": 0.392166,
+          "text": "қызуын"
+        },
+        {
+          "offset": 7.353916,
+          "duration": 0.539208,
+          "text": "сақтайды"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.11175,
+          "duration": 0.330875,
+          "text": "Сатып"
+        },
+        {
+          "offset": 0.454916,
+          "duration": 0.355375,
+          "text": "аларда"
+        },
+        {
+          "offset": 0.847041,
+          "duration": 0.171583,
+          "text": "үш"
+        },
+        {
+          "offset": 1.043125,
+          "duration": 0.367666,
+          "text": "белгіні"
+        },
+        {
+          "offset": 1.410791,
+          "duration": 0.61275,
+          "text": "тексеріңіз"
+        },
+        {
+          "offset": 2.146083,
+          "duration": 0.404416,
+          "text": "ішінде"
+        },
+        {
+          "offset": 2.56275,
+          "duration": 0.490208,
+          "text": "қайнаған"
+        },
+        {
+          "offset": 3.052958,
+          "duration": 0.196083,
+          "text": "су"
+        },
+        {
+          "offset": 3.273541,
+          "duration": 0.281875,
+          "text": "тұрса"
+        },
+        {
+          "offset": 3.567666,
+          "duration": 0.134791,
+          "text": "да"
+        },
+        {
+          "offset": 3.763708,
+          "duration": 0.343125,
+          "text": "сырты"
+        },
+        {
+          "offset": 4.106875,
+          "duration": 0.416666,
+          "text": "салқын"
+        },
+        {
+          "offset": 4.523541,
+          "duration": 0.392166,
+          "text": "болуы"
+        },
+        {
+          "offset": 5.148541,
+          "duration": 0.514708,
+          "text": "түбіндегі"
+        },
+        {
+          "offset": 5.68775,
+          "duration": 0.183833,
+          "text": "үш"
+        },
+        {
+          "offset": 5.871583,
+          "duration": 0.196083,
+          "text": "жүз"
+        },
+        {
+          "offset": 6.079916,
+          "duration": 0.281833,
+          "text": "төрт"
+        },
+        {
+          "offset": 6.36175,
+          "duration": 0.306375,
+          "text": "мөрі"
+        },
+        {
+          "offset": 6.668125,
+          "duration": 0.281875,
+          "text": "және"
+        },
+        {
+          "offset": 6.96225,
+          "duration": 0.318625,
+          "text": "тығыз"
+        },
+        {
+          "offset": 7.293125,
+          "duration": 0.232833,
+          "text": "қос"
+        },
+        {
+          "offset": 7.526,
+          "duration": 0.453416,
+          "text": "сақина"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.09975,
+          "duration": 0.306375,
+          "text": "Тауар"
+        },
+        {
+          "offset": 0.406125,
+          "duration": 0.465666,
+          "text": "сатасыз"
+        },
+        {
+          "offset": 0.871833,
+          "duration": 0.147041,
+          "text": "ба"
+        },
+        {
+          "offset": 1.86275,
+          "duration": 0.196083,
+          "text": "Кез"
+        },
+        {
+          "offset": 2.058833,
+          "duration": 0.318625,
+          "text": "келген"
+        },
+        {
+          "offset": 2.377458,
+          "duration": 0.379875,
+          "text": "өнімді"
+        },
+        {
+          "offset": 2.757333,
+          "duration": 0.208333,
+          "text": "дәл"
+        },
+        {
+          "offset": 2.990208,
+          "duration": 0.404416,
+          "text": "осындай"
+        },
+        {
+          "offset": 3.406875,
+          "duration": 0.220583,
+          "text": "3"
+        },
+        {
+          "offset": 3.627458,
+          "duration": 0.477916,
+          "text": "D-бөлшектеп"
+        },
+        {
+          "offset": 4.105375,
+          "duration": 0.6005,
+          "text": "көрсетеміз"
+        },
+        {
+          "offset": 4.705875,
+          "duration": 0.674,
+          "text": "Дайректке"
+        },
+        {
+          "offset": 5.392166,
+          "duration": 0.306375,
+          "text": "ШОЛУ"
+        },
+        {
+          "offset": 5.723041,
+          "duration": 0.134791,
+          "text": "деп"
+        },
+        {
+          "offset": 5.857833,
+          "duration": 0.539208,
+          "text": "жазыңыз"
+        },
+        {
+          "offset": 6.421583,
+          "duration": 0.404416,
+          "text": "сонда"
+        },
+        {
+          "offset": 6.826,
+          "duration": 0.330875,
+          "text": "сатып"
+        },
+        {
+          "offset": 7.156875,
+          "duration": 0.355375,
+          "text": "алушы"
+        },
+        {
+          "offset": 7.51225,
+          "duration": 0.330875,
+          "text": "бірден"
+        },
+        {
+          "offset": 7.855375,
+          "duration": 0.404416,
+          "text": "көреді"
+        }
+      ]
+    }
+  ]
+}

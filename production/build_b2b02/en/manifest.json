@@ -1,0 +1,1091 @@
+{
+  "hash": "666a7c6d529482fa8cfcf1f4ee88b5a9bcb33fd53d037b75dc9a6e01fd0064ff",
+  "voice": "en-US-BrianMultilingualNeural",
+  "items": [
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.14425,
+          "text": "How"
+        },
+        {
+          "offset": 0.240375,
+          "duration": 0.15625,
+          "text": "can"
+        },
+        {
+          "offset": 0.408666,
+          "duration": 0.216333,
+          "text": "two"
+        },
+        {
+          "offset": 0.637,
+          "duration": 0.552875,
+          "text": "millimeters"
+        },
+        {
+          "offset": 1.201916,
+          "duration": 0.072125,
+          "text": "of"
+        },
+        {
+          "offset": 1.286041,
+          "duration": 0.240375,
+          "text": "empty"
+        },
+        {
+          "offset": 1.538458,
+          "duration": 0.408666,
+          "text": "space"
+        },
+        {
+          "offset": 1.959125,
+          "duration": 0.384625,
+          "text": "inside"
+        },
+        {
+          "offset": 2.35575,
+          "duration": 0.048083,
+          "text": "a"
+        },
+        {
+          "offset": 2.415875,
+          "duration": 0.336541,
+          "text": "steel"
+        },
+        {
+          "offset": 2.764416,
+          "duration": 0.372583,
+          "text": "thermos"
+        },
+        {
+          "offset": 3.149041,
+          "duration": 0.3125,
+          "text": "keep"
+        },
+        {
+          "offset": 3.473541,
+          "duration": 0.348541,
+          "text": "boiling"
+        },
+        {
+          "offset": 3.834125,
+          "duration": 0.264416,
+          "text": "water"
+        },
+        {
+          "offset": 4.110583,
+          "duration": 0.3125,
+          "text": "hot"
+        },
+        {
+          "offset": 4.459125,
+          "duration": 0.16825,
+          "text": "for"
+        },
+        {
+          "offset": 4.639416,
+          "duration": 0.060083,
+          "text": "a"
+        },
+        {
+          "offset": 4.711541,
+          "duration": 0.228375,
+          "text": "full"
+        },
+        {
+          "offset": 4.951916,
+          "duration": 0.3005,
+          "text": "day"
+        },
+        {
+          "offset": 5.264416,
+          "duration": 0.108166,
+          "text": "at"
+        },
+        {
+          "offset": 5.384625,
+          "duration": 0.3125,
+          "text": "minus"
+        },
+        {
+          "offset": 5.709125,
+          "duration": 0.46875,
+          "text": "thirty-five"
+        },
+        {
+          "offset": 6.189916,
+          "duration": 0.504791,
+          "text": "degrees"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.228375,
+          "text": "Under"
+        },
+        {
+          "offset": 0.3245,
+          "duration": 0.048083,
+          "text": "a"
+        },
+        {
+          "offset": 0.384625,
+          "duration": 0.3125,
+          "text": "thermal"
+        },
+        {
+          "offset": 0.709125,
+          "duration": 0.48075,
+          "text": "camera"
+        },
+        {
+          "offset": 1.634625,
+          "duration": 0.084125,
+          "text": "a"
+        },
+        {
+          "offset": 1.73075,
+          "duration": 0.264416,
+          "text": "cheap"
+        },
+        {
+          "offset": 2.007208,
+          "duration": 0.372583,
+          "text": "flask"
+        },
+        {
+          "offset": 2.391833,
+          "duration": 0.360583,
+          "text": "glows"
+        },
+        {
+          "offset": 2.764416,
+          "duration": 0.3005,
+          "text": "bright"
+        },
+        {
+          "offset": 3.076916,
+          "duration": 0.14425,
+          "text": "red"
+        },
+        {
+          "offset": 3.233166,
+          "duration": 0.48075,
+          "text": "outside"
+        },
+        {
+          "offset": 3.725958,
+          "duration": 0.108166,
+          "text": "and"
+        },
+        {
+          "offset": 3.846166,
+          "duration": 0.216333,
+          "text": "leaks"
+        },
+        {
+          "offset": 4.0745,
+          "duration": 0.204333,
+          "text": "heat"
+        },
+        {
+          "offset": 4.290875,
+          "duration": 0.48075,
+          "text": "fast"
+        },
+        {
+          "offset": 5.3245,
+          "duration": 0.16825,
+          "text": "while"
+        },
+        {
+          "offset": 5.504791,
+          "duration": 0.048083,
+          "text": "a"
+        },
+        {
+          "offset": 5.564916,
+          "duration": 0.240375,
+          "text": "true"
+        },
+        {
+          "offset": 5.817291,
+          "duration": 0.384625,
+          "text": "vacuum"
+        },
+        {
+          "offset": 6.213958,
+          "duration": 0.252416,
+          "text": "shell"
+        },
+        {
+          "offset": 6.478375,
+          "duration": 0.336541,
+          "text": "stays"
+        },
+        {
+          "offset": 6.826916,
+          "duration": 0.540875,
+          "text": "ice-cold"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.060083,
+          "duration": 0.060083,
+          "text": "The"
+        },
+        {
+          "offset": 0.132208,
+          "duration": 0.444708,
+          "text": "entire"
+        },
+        {
+          "offset": 0.588958,
+          "duration": 0.360583,
+          "text": "secret"
+        },
+        {
+          "offset": 0.961541,
+          "duration": 0.396625,
+          "text": "hides"
+        },
+        {
+          "offset": 1.370208,
+          "duration": 0.504791,
+          "text": "inside"
+        },
+        {
+          "offset": 1.887,
+          "duration": 0.216333,
+          "text": "four"
+        },
+        {
+          "offset": 2.115375,
+          "duration": 0.46875,
+          "text": "engineered"
+        },
+        {
+          "offset": 2.596166,
+          "duration": 0.504791,
+          "text": "layers"
+        },
+        {
+          "offset": 3.617791,
+          "duration": 0.228375,
+          "text": "let's"
+        },
+        {
+          "offset": 3.858166,
+          "duration": 0.3005,
+          "text": "pull"
+        },
+        {
+          "offset": 4.182708,
+          "duration": 0.216333,
+          "text": "each"
+        },
+        {
+          "offset": 4.411041,
+          "duration": 0.15625,
+          "text": "one"
+        },
+        {
+          "offset": 4.579333,
+          "duration": 0.384625,
+          "text": "apart"
+        },
+        {
+          "offset": 4.975958,
+          "duration": 0.108166,
+          "text": "in"
+        },
+        {
+          "offset": 5.096166,
+          "duration": 0.060083,
+          "text": "a"
+        },
+        {
+          "offset": 5.16825,
+          "duration": 0.516833,
+          "text": "cutaway"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.264416,
+          "text": "Layer"
+        },
+        {
+          "offset": 0.360583,
+          "duration": 0.276458,
+          "text": "one"
+        },
+        {
+          "offset": 0.649041,
+          "duration": 0.216333,
+          "text": "is"
+        },
+        {
+          "offset": 0.877416,
+          "duration": 0.3005,
+          "text": "double"
+        },
+        {
+          "offset": 1.189916,
+          "duration": 0.588958,
+          "text": "food-grade"
+        },
+        {
+          "offset": 1.790875,
+          "duration": 0.552875,
+          "text": "three-oh-four"
+        },
+        {
+          "offset": 2.35575,
+          "duration": 0.46875,
+          "text": "steel"
+        },
+        {
+          "offset": 3.209125,
+          "duration": 0.528833,
+          "text": "Chromium"
+        },
+        {
+          "offset": 3.762,
+          "duration": 0.120208,
+          "text": "and"
+        },
+        {
+          "offset": 3.89425,
+          "duration": 0.3245,
+          "text": "nickel"
+        },
+        {
+          "offset": 4.23075,
+          "duration": 0.276458,
+          "text": "lock"
+        },
+        {
+          "offset": 4.51925,
+          "duration": 0.216333,
+          "text": "out"
+        },
+        {
+          "offset": 4.747583,
+          "duration": 0.444708,
+          "text": "rust"
+        },
+        {
+          "offset": 5.528833,
+          "duration": 0.685083,
+          "text": "corrosion"
+        },
+        {
+          "offset": 6.514416,
+          "duration": 0.204333,
+          "text": "and"
+        },
+        {
+          "offset": 6.73075,
+          "duration": 0.432708,
+          "text": "metallic"
+        },
+        {
+          "offset": 7.1755,
+          "duration": 0.336541,
+          "text": "taste"
+        },
+        {
+          "offset": 7.524041,
+          "duration": 0.120208,
+          "text": "for"
+        },
+        {
+          "offset": 7.65625,
+          "duration": 0.48075,
+          "text": "years"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.240375,
+          "text": "Layer"
+        },
+        {
+          "offset": 0.336541,
+          "duration": 0.336541,
+          "text": "two"
+        },
+        {
+          "offset": 0.685083,
+          "duration": 0.180291,
+          "text": "is"
+        },
+        {
+          "offset": 0.877416,
+          "duration": 0.096166,
+          "text": "a"
+        },
+        {
+          "offset": 0.985583,
+          "duration": 0.228375,
+          "text": "deep"
+        },
+        {
+          "offset": 1.225958,
+          "duration": 0.432708,
+          "text": "vacuum"
+        },
+        {
+          "offset": 1.670666,
+          "duration": 0.432708,
+          "text": "gap"
+        },
+        {
+          "offset": 2.475958,
+          "duration": 0.264416,
+          "text": "Once"
+        },
+        {
+          "offset": 2.752416,
+          "duration": 0.060083,
+          "text": "the"
+        },
+        {
+          "offset": 2.8245,
+          "duration": 0.276458,
+          "text": "air"
+        },
+        {
+          "offset": 3.113,
+          "duration": 0.132208,
+          "text": "is"
+        },
+        {
+          "offset": 3.257208,
+          "duration": 0.288458,
+          "text": "pumped"
+        },
+        {
+          "offset": 3.557708,
+          "duration": 0.336541,
+          "text": "out"
+        },
+        {
+          "offset": 4.182708,
+          "duration": 0.14425,
+          "text": "there"
+        },
+        {
+          "offset": 4.338958,
+          "duration": 0.072125,
+          "text": "are"
+        },
+        {
+          "offset": 4.423083,
+          "duration": 0.384625,
+          "text": "simply"
+        },
+        {
+          "offset": 4.819708,
+          "duration": 0.204333,
+          "text": "no"
+        },
+        {
+          "offset": 5.036041,
+          "duration": 0.3005,
+          "text": "gas"
+        },
+        {
+          "offset": 5.348541,
+          "duration": 0.576916,
+          "text": "molecules"
+        },
+        {
+          "offset": 5.9375,
+          "duration": 0.240375,
+          "text": "left"
+        },
+        {
+          "offset": 6.189916,
+          "duration": 0.084125,
+          "text": "to"
+        },
+        {
+          "offset": 6.286041,
+          "duration": 0.264416,
+          "text": "carry"
+        },
+        {
+          "offset": 6.5625,
+          "duration": 0.204333,
+          "text": "heat"
+        },
+        {
+          "offset": 6.778833,
+          "duration": 0.540875,
+          "text": "across"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.252416,
+          "text": "Heat"
+        },
+        {
+          "offset": 0.348541,
+          "duration": 0.264416,
+          "text": "still"
+        },
+        {
+          "offset": 0.625,
+          "duration": 0.504791,
+          "text": "travels"
+        },
+        {
+          "offset": 1.141833,
+          "duration": 0.14425,
+          "text": "as"
+        },
+        {
+          "offset": 1.298083,
+          "duration": 0.48075,
+          "text": "infrared"
+        },
+        {
+          "offset": 1.790875,
+          "duration": 0.46875,
+          "text": "waves"
+        },
+        {
+          "offset": 2.5,
+          "duration": 0.228375,
+          "text": "so"
+        },
+        {
+          "offset": 2.740375,
+          "duration": 0.288458,
+          "text": "layer"
+        },
+        {
+          "offset": 3.040875,
+          "duration": 0.384625,
+          "text": "three"
+        },
+        {
+          "offset": 3.4375,
+          "duration": 0.14425,
+          "text": "is"
+        },
+        {
+          "offset": 3.59375,
+          "duration": 0.048083,
+          "text": "a"
+        },
+        {
+          "offset": 3.653833,
+          "duration": 0.673083,
+          "text": "microscopic"
+        },
+        {
+          "offset": 4.338958,
+          "duration": 0.360583,
+          "text": "copper"
+        },
+        {
+          "offset": 4.711541,
+          "duration": 0.408666,
+          "text": "lining"
+        },
+        {
+          "offset": 5.132208,
+          "duration": 0.15625,
+          "text": "that"
+        },
+        {
+          "offset": 5.3005,
+          "duration": 0.420666,
+          "text": "bounces"
+        },
+        {
+          "offset": 5.733166,
+          "duration": 0.348541,
+          "text": "radiant"
+        },
+        {
+          "offset": 6.09375,
+          "duration": 0.336541,
+          "text": "energy"
+        },
+        {
+          "offset": 6.442291,
+          "duration": 0.3005,
+          "text": "straight"
+        },
+        {
+          "offset": 6.754791,
+          "duration": 0.240375,
+          "text": "back"
+        },
+        {
+          "offset": 7.007208,
+          "duration": 0.240375,
+          "text": "in"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.120208,
+          "text": "And"
+        },
+        {
+          "offset": 0.216333,
+          "duration": 0.372583,
+          "text": "barrier"
+        },
+        {
+          "offset": 0.600958,
+          "duration": 0.408666,
+          "text": "four"
+        },
+        {
+          "offset": 1.021625,
+          "duration": 0.15625,
+          "text": "is"
+        },
+        {
+          "offset": 1.189916,
+          "duration": 0.096166,
+          "text": "a"
+        },
+        {
+          "offset": 1.298083,
+          "duration": 0.276458,
+          "text": "deep"
+        },
+        {
+          "offset": 1.586541,
+          "duration": 0.492791,
+          "text": "insulated"
+        },
+        {
+          "offset": 2.091333,
+          "duration": 0.48075,
+          "text": "stopper"
+        },
+        {
+          "offset": 2.584125,
+          "duration": 0.15625,
+          "text": "with"
+        },
+        {
+          "offset": 2.752416,
+          "duration": 0.240375,
+          "text": "dual"
+        },
+        {
+          "offset": 3.004791,
+          "duration": 0.444708,
+          "text": "silicone"
+        },
+        {
+          "offset": 3.461541,
+          "duration": 0.613,
+          "text": "gaskets"
+        },
+        {
+          "offset": 4.555291,
+          "duration": 0.420666,
+          "text": "sealing"
+        },
+        {
+          "offset": 4.988,
+          "duration": 0.46875,
+          "text": "convective"
+        },
+        {
+          "offset": 5.46875,
+          "duration": 0.288458,
+          "text": "steam"
+        },
+        {
+          "offset": 5.76925,
+          "duration": 0.408666,
+          "text": "escape"
+        },
+        {
+          "offset": 6.189916,
+          "duration": 0.3245,
+          "text": "right"
+        },
+        {
+          "offset": 6.526458,
+          "duration": 0.120208,
+          "text": "at"
+        },
+        {
+          "offset": 6.658666,
+          "duration": 0.072125,
+          "text": "the"
+        },
+        {
+          "offset": 6.742791,
+          "duration": 0.396625,
+          "text": "neck"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.132208,
+          "text": "As"
+        },
+        {
+          "offset": 0.228375,
+          "duration": 0.048083,
+          "text": "a"
+        },
+        {
+          "offset": 0.288458,
+          "duration": 0.516833,
+          "text": "result"
+        },
+        {
+          "offset": 0.829333,
+          "duration": 0.3245,
+          "text": "instead"
+        },
+        {
+          "offset": 1.165875,
+          "duration": 0.084125,
+          "text": "of"
+        },
+        {
+          "offset": 1.262,
+          "duration": 0.228375,
+          "text": "going"
+        },
+        {
+          "offset": 1.502416,
+          "duration": 0.336541,
+          "text": "cold"
+        },
+        {
+          "offset": 1.850958,
+          "duration": 0.108166,
+          "text": "in"
+        },
+        {
+          "offset": 1.971166,
+          "duration": 0.240375,
+          "text": "three"
+        },
+        {
+          "offset": 2.223541,
+          "duration": 0.48075,
+          "text": "hours"
+        },
+        {
+          "offset": 3.004791,
+          "duration": 0.120208,
+          "text": "a"
+        },
+        {
+          "offset": 3.137,
+          "duration": 0.492791,
+          "text": "copper-lined"
+        },
+        {
+          "offset": 3.641833,
+          "duration": 0.348541,
+          "text": "vacuum"
+        },
+        {
+          "offset": 4.002416,
+          "duration": 0.408666,
+          "text": "flask"
+        },
+        {
+          "offset": 4.423083,
+          "duration": 0.3005,
+          "text": "still"
+        },
+        {
+          "offset": 4.735583,
+          "duration": 0.372583,
+          "text": "holds"
+        },
+        {
+          "offset": 5.120208,
+          "duration": 0.372583,
+          "text": "nearly"
+        },
+        {
+          "offset": 5.504791,
+          "duration": 0.204333,
+          "text": "eighty"
+        },
+        {
+          "offset": 5.721166,
+          "duration": 0.432708,
+          "text": "degrees"
+        },
+        {
+          "offset": 6.165875,
+          "duration": 0.072125,
+          "text": "a"
+        },
+        {
+          "offset": 6.25,
+          "duration": 0.240375,
+          "text": "full"
+        },
+        {
+          "offset": 6.502416,
+          "duration": 0.180291,
+          "text": "day"
+        },
+        {
+          "offset": 6.694708,
+          "duration": 0.408666,
+          "text": "later"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.336541,
+          "text": "Remember"
+        },
+        {
+          "offset": 0.432708,
+          "duration": 0.3245,
+          "text": "three"
+        },
+        {
+          "offset": 0.76925,
+          "duration": 0.564916,
+          "text": "ten-second"
+        },
+        {
+          "offset": 1.346166,
+          "duration": 0.3005,
+          "text": "buyer"
+        },
+        {
+          "offset": 1.658666,
+          "duration": 0.492791,
+          "text": "checks"
+        },
+        {
+          "offset": 2.728375,
+          "duration": 0.096166,
+          "text": "a"
+        },
+        {
+          "offset": 2.836541,
+          "duration": 0.3125,
+          "text": "cold"
+        },
+        {
+          "offset": 3.161041,
+          "duration": 0.252416,
+          "text": "outer"
+        },
+        {
+          "offset": 3.4255,
+          "duration": 0.276458,
+          "text": "wall"
+        },
+        {
+          "offset": 3.713958,
+          "duration": 0.14425,
+          "text": "with"
+        },
+        {
+          "offset": 3.870208,
+          "duration": 0.372583,
+          "text": "boiling"
+        },
+        {
+          "offset": 4.254791,
+          "duration": 0.288458,
+          "text": "water"
+        },
+        {
+          "offset": 4.555291,
+          "duration": 0.552875,
+          "text": "inside"
+        },
+        {
+          "offset": 5.649041,
+          "duration": 0.084125,
+          "text": "a"
+        },
+        {
+          "offset": 5.745208,
+          "duration": 0.564916,
+          "text": "three-oh-four"
+        },
+        {
+          "offset": 6.322125,
+          "duration": 0.216333,
+          "text": "base"
+        },
+        {
+          "offset": 6.5505,
+          "duration": 0.384625,
+          "text": "stamp"
+        },
+        {
+          "offset": 7.163458,
+          "duration": 0.15625,
+          "text": "and"
+        },
+        {
+          "offset": 7.33175,
+          "duration": 0.252416,
+          "text": "dual"
+        },
+        {
+          "offset": 7.596166,
+          "duration": 0.637,
+          "text": "gaskets"
+        }
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "offset": 0.084125,
+          "duration": 0.46875,
+          "text": "Selling"
+        },
+        {
+          "offset": 0.576916,
+          "duration": 0.108166,
+          "text": "a"
+        },
+        {
+          "offset": 0.697125,
+          "duration": 0.432708,
+          "text": "physical"
+        },
+        {
+          "offset": 1.141833,
+          "duration": 0.613,
+          "text": "product"
+        },
+        {
+          "offset": 2.127416,
+          "duration": 0.108166,
+          "text": "We"
+        },
+        {
+          "offset": 2.247583,
+          "duration": 0.252416,
+          "text": "break"
+        },
+        {
+          "offset": 2.512,
+          "duration": 0.204333,
+          "text": "down"
+        },
+        {
+          "offset": 2.728375,
+          "duration": 0.084125,
+          "text": "your"
+        },
+        {
+          "offset": 2.8245,
+          "duration": 0.360583,
+          "text": "SKU"
+        },
+        {
+          "offset": 3.197125,
+          "duration": 0.14425,
+          "text": "in"
+        },
+        {
+          "offset": 3.353375,
+          "duration": 0.216333,
+          "text": "full"
+        },
+        {
+          "offset": 3.58175,
+          "duration": 0.336541,
+          "text": "3D"
+        },
+        {
+          "offset": 3.930291,
+          "duration": 0.552875,
+          "text": "cutaway"
+        },
+        {
+          "offset": 5.036041,
+          "duration": 0.408666,
+          "text": "DM"
+        },
+        {
+          "offset": 5.45675,
+          "duration": 0.420666,
+          "text": "REVIEW"
+        },
+        {
+          "offset": 5.889416,
+          "duration": 0.228375,
+          "text": "right"
+        },
+        {
+          "offset": 6.129791,
+          "duration": 0.240375,
+          "text": "now"
+        },
+        {
+          "offset": 6.39425,
+          "duration": 0.180291,
+          "text": "so"
+        },
+        {
+          "offset": 6.586541,
+          "duration": 0.408666,
+          "text": "buyers"
+        },
+        {
+          "offset": 7.007208,
+          "duration": 0.48075,
+          "text": "instantly"
+        },
+        {
+          "offset": 7.5,
+          "duration": 0.408666,
+          "text": "see"
+        }
+      ]
+    }
+  ]
+}
