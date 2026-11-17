@@ -51,3 +51,7 @@ production/build_b2b02/**/*.wav
 production/build_b2b02/**/*.mp3
 production/build_b2b02/**/video_silent.mp4
 production/build_b2b02/qa/
+production/build_b2b03/**/*.wav
+production/build_b2b03/**/*.mp3
+production/build_b2b03/**/video_silent.mp4
+production/build_b2b03/qa/
