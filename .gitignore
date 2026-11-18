@@ -58,4 +58,6 @@ production/build_b2b03/qa/
 production/build_b2b04/**/*.wav
 production/build_b2b04/**/*.mp3
 production/build_b2b04/**/video_silent.mp4
+production/build_b2b04/**/video_silent_v2.mp4
 production/build_b2b04/qa/
+production/build_b2b04/qa_v2/
