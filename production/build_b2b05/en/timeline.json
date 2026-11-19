@@ -1,0 +1,82 @@
+[
+  {
+    "idx": 0,
+    "scene": 1,
+    "t0": 0.0,
+    "t1": 5.888,
+    "dur": 5.888,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s00_trim.npy"
+  },
+  {
+    "idx": 1,
+    "scene": 2,
+    "t0": 5.958,
+    "t1": 11.4698,
+    "dur": 5.5117,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s01_trim.npy"
+  },
+  {
+    "idx": 2,
+    "scene": 3,
+    "t0": 11.5498,
+    "t1": 18.2197,
+    "dur": 6.6699,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s02_trim.npy"
+  },
+  {
+    "idx": 3,
+    "scene": 4,
+    "t0": 18.2997,
+    "t1": 24.1325,
+    "dur": 5.8329,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s03_trim.npy"
+  },
+  {
+    "idx": 4,
+    "scene": 5,
+    "t0": 24.2125,
+    "t1": 30.4701,
+    "dur": 6.2576,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s04_trim.npy"
+  },
+  {
+    "idx": 5,
+    "scene": 6,
+    "t0": 30.5501,
+    "t1": 36.1181,
+    "dur": 5.5679,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s05_trim.npy"
+  },
+  {
+    "idx": 6,
+    "scene": 7,
+    "t0": 36.1981,
+    "t1": 42.5842,
+    "dur": 6.3861,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s06_trim.npy"
+  },
+  {
+    "idx": 7,
+    "scene": 8,
+    "t0": 42.6642,
+    "t1": 49.3223,
+    "dur": 6.6581,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s07_trim.npy"
+  },
+  {
+    "idx": 8,
+    "scene": 9,
+    "t0": 49.4023,
+    "t1": 54.4871,
+    "dur": 5.0848,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s08_trim.npy"
+  },
+  {
+    "idx": 9,
+    "scene": 10,
+    "t0": 54.5671,
+    "t1": 61.7218,
+    "dur": 7.1547,
+    "wav": "/Users/market/antigravity/Video/production/build_b2b05/en/tts/s09_trim.npy"
+  }
+]
